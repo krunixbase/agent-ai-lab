@@ -1,35 +1,46 @@
+# agent-ai-lab
+
+A modular, extensible framework for building AI agents with reasoning, planning, tool execution, and memory.  
+Designed for experimentation, research, and production‑grade agent architectures.
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688.svg)
 ![LLM](https://img.shields.io/badge/LLM-Agents-orange.svg)
-![Tests](https://img.shields.io/badge/Tests-Pytest-blueviolet.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-ff69b4.svg)
 
 ---
 
-# agent‑ai‑lab
+## Overview
 
-Laboratory environment for building AI agents, backend orchestration layers, LLM pipelines, and autonomous workflows.  
-The project reflects practical experience from real client work: agent backends, AI‑driven automation, and integration of modern LLM frameworks.
+**agent-ai-lab** provides a clean foundation for experimenting with AI agents powered by LLMs.  
+The project focuses on:
 
----
+- structured reasoning loops  
+- LLM-based planning  
+- tool calling and execution  
+- memory systems  
+- modular pipelines  
+- FastAPI server for agent interaction  
 
-# 🔍 Purpose
-
-This repository provides a modular foundation for:
-
-- building intelligent agents with memory, tools, and reasoning loops  
-- orchestrating LLM pipelines (OpenAI, Anthropic, local models)  
-- integrating vector databases and retrieval systems  
-- running backend logic for autonomous workflows  
-- experimenting with agent architectures and prompt strategies  
-
-The goal is to create a flexible environment for research, prototyping, and production‑grade agent systems.
+The goal is to create a transparent, debuggable, and extensible environment for building intelligent agents.
 
 ---
 
-## 📁 Repository Structure
+## Features
+
+- **BaseAgent** with a multi-step reasoning loop  
+- **OpenAIPipeline** for LLM-based planning  
+- **ToolRegistry** for dynamic tool execution  
+- **Built-in tools** (echo, calculator, datetime)  
+- **Memory system** for storing interaction traces  
+- **FastAPI server** for running agents via HTTP  
+- **Experiments** documenting agent behavior and evolution  
+- **Docker support** for containerized deployment  
+
+---
+
+## Project Structure
 
 ```
 agent-ai-lab/
@@ -63,97 +74,119 @@ agent-ai-lab/
 
 ---
 
-# 🧠 Core Components
-
-## Agent Core
-
-- `base_agent.py` — minimal reasoning loop and agent lifecycle  
-
-- `memory.py` — short‑term and long‑term memory abstractions  
-
-- `tools.py` — tool registry and execution layer  
-
-- `reasoning.py` — planning, chain‑of‑thought, and decision logic  
-
-## Pipelines
-
-- `llm_pipeline.py` — unified interface for LLM providers  
-
-- `retrieval_pipeline.py` — RAG, embeddings, vector DB integration  
-
-### Backend API
-
-- `api.py` — FastAPI server exposing agent endpoints for external systems  
-
 ---
 
-# 🚀 Quick Start
+## Getting Started
 
-## Install dependencies:
-
-```
-Bash
-pip install -r requirements.txt
-```
-
-## Run the development server:
-
-```
-Bash
-uvicorn src.server.api:app --reload
-```
-
-## Run a simple agent:
+### 1. Clone the repository
 
 ```
 bash
-python src/agent_core/base_agent.py
+git clone https://github.com/krunixbase/agent-ai-lab
+cd agent-ai-lab
 ```
 
+### 2. Create your environment file
+
+```
+bash
+cp .env.example .env
+```
+
+Add your OpenAI API key:
+
+```
+OPENAI_API_KEY=your-key-here
+```
+
+### 3. Install dependencies
+
+```
+bash
+pip install -r requirements.txt
+```
+
+### 4. Run the FastAPI server
+
+```
+bash
+uvicorn src.server.api:app --reload
+```
+
+Server will be available at:
+
+```
+http://localhost:8000
+```
 ---
 
-# 🧭 Roadmap
+## Running with Docker
 
-- multi‑agent collaboration
+- Build the image:
 
-- tool‑calling with validation and safety
+```
+bash
+docker build -t agent-ai-lab .
+```
 
-- memory persistence (PostgreSQL / Redis)
+- Run the container:
 
-- RAG pipelines with Pinecone / Chroma
-
-- agent monitoring dashboard
-
-- experiment suite for agent behavior
-
-- integration with event‑driven backends
-
+```
+bash
+docker run -p 8000:8000 --env-file .env agent-ai-lab
+```
 ---
 
-# 🧪 Experiments
+## Experiments
 
-Experiments are stored in:
+The project includes a growing set of documented experiments:
+
+- Experiment 001 — Basic agent loop
+
+- Experiment 002 — Tool calling
+
+- (Upcoming) Experiment 003 — Memory summarization
+
+- (Upcoming) Experiment 004 — Multi-step planning
+
+Experiments live in:
 
 ```
 docs/experiments/
 ```
 
-Example:
+---
 
-- experiment-001-agent-loop.md — baseline test of agent reasoning loop
+# Roadmap
+
+## The full roadmap is available in:
+
+```
+ROADMAP.md
+```
+
+## It covers short‑term, mid‑term, and long‑term goals including:
+
+- multi-agent collaboration
+
+- persistent memory
+
+- RAG pipelines
+
+- external API tools
+
+- orchestration and distributed execution
 
 ---
 
-# 🔒 Security Notice
+# Contributing
 
-This repository is intended for research and backend development.
-Do not use it to automate harmful actions or unauthorized access.
-Follow ethical and legal guidelines when integrating external tools.
+Contributions are welcome.Please open an issue or submit a pull request.
 
 ---
 
-# 📜 License
+# License
 
-MIT License.
+This project is licensed under the MIT License.
 
 ---
