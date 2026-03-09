@@ -145,9 +145,9 @@ The project includes a growing set of documented experiments:
 
 - Experiment 002 — Tool calling
 
-- (Upcoming) Experiment 003 — Memory summarization
+- Experiment 003 — Memory summarization
 
-- (Upcoming) Experiment 004 — Multi-step planning
+- Experiment 004 — Multi-step planning
 
 Experiments live in:
 
