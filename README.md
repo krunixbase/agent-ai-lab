@@ -76,7 +76,7 @@ agent-ai-lab/
 
 ---
 
-## Getting Started
+# Getting Started
 
 ### 1. Clone the repository
 
@@ -113,23 +113,23 @@ bash
 uvicorn src.server.api:app --reload
 ```
 
-Server will be available at:
+### 5. Server will be available at:
 
 ```
 http://localhost:8000
 ```
 ---
 
-## Running with Docker
+# Running with Docker
 
-- Build the image:
+### 1. Build the image:
 
 ```
 bash
 docker build -t agent-ai-lab .
 ```
 
-- Run the container:
+### 2. Run the container:
 
 ```
 bash
