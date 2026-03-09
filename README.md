@@ -45,34 +45,64 @@ The goal is to create a transparent, debuggable, and extensible environment for 
 ```
 agent-ai-lab/
 │
+├── .env.example
+├── Dockerfile
+├── pyproject.toml
+├── requirements.txt
+├── README.md
+│
+├── scripts/
+│   ├── run_server.sh
+│   ├── format.sh
+│   └── test.sh
+│
 ├── src/
+│   ├── config/
+│   │   └── settings.py
+│   │
 │   ├── agent_core/
 │   │   ├── base_agent.py
-│   │   ├── memory.py
 │   │   ├── tools.py
-│   │   └── reasoning.py
+│   │   ├── tools_builtin.py
+│   │   │
+│   │   ├── planning/
+│   │   │   ├── planner_base.py
+│   │   │   ├── single_step_planner.py
+│   │   │   └── multi_step_planner.py
+│   │   │
+│   │   └── memory/
+│   │       ├── memory.py
+│   │       ├── summarizer.py
+│   │       └── vector_memory.py
+│   │
+│   ├── tools_external/
+│   │   ├── weather.py
+│   │   ├── search.py
+│   │   └── wikipedia.py
 │   │
 │   ├── pipelines/
 │   │   ├── llm_pipeline.py
-│   │   └── retrieval_pipeline.py
+│   │   └── openai_pipeline.py
 │   │
 │   └── server/
 │       └── api.py
 │
 ├── docs/
-│   ├── architecture.md
+│   ├── architecture/
+│   │   └── agent-loop.md
+│   │
 │   └── experiments/
-│       └── experiment-001-agent-loop.md
+│       ├── experiment-001-agent-loop.md
+│       ├── experiment-002-tool-calling.md
+│       ├── experiment-003-memory-summarization.md
+│       └── experiment-004-multi-step-planning.md
 │
-├── tests/
-│   └── test_agent_core.py
-│
-├── README.md
-├── LICENSE
-└── .gitignore
+└── tests/
+    ├── test_agent.py
+    ├── test_memory.py
+    ├── test_planning.py
+    └── test_tools.py
 ```
-
----
 
 ---
 
