@@ -1,3 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688.svg)
+![LLM](https://img.shields.io/badge/LLM-Agents-orange.svg)
+![Tests](https://img.shields.io/badge/Tests-Pytest-blueviolet.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-ff69b4.svg)
+
+---
+
 # agent‑ai‑lab
 
 Laboratory environment for building AI agents, backend orchestration layers, LLM pipelines, and autonomous workflows.  
