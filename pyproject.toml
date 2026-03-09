@@ -1,0 +1,25 @@
+[project]
+name = "agent-ai-lab"
+version = "0.1.0"
+description = "Modular AI agent framework for reasoning, planning, and tool execution."
+authors = [
+    { name = "Andrzej", email = "example@example.com" }
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai>=1.0.0",
+    "python-dotenv",
+    "pydantic",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
