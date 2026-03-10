@@ -84,6 +84,7 @@ All layers are concatenated in a strict order to form the final prompt.
 
 ## Prompt Structure Diagram
 
+```
 ┌──────────────────────────┐
 │     System Instructions   │
 └─────────────┬────────────┘
@@ -107,6 +108,7 @@ All layers are concatenated in a strict order to form the final prompt.
 ┌──────────────────────────┐
 │       User Input          │
 └──────────────────────────┘
+```
 
 ---
 
