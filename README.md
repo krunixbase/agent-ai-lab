@@ -1,217 +1,113 @@
-# agent-ai-lab
+# Agent AI Lab — System Architecture Documentation
 
-A modular, extensible framework for building AI agents with reasoning, planning, tool execution, and memory.  
-Designed for experimentation, research, and production‑grade agent architectures.
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![Architecture](https://img.shields.io/badge/focus-agent%20architecture-blue.svg)
+![Docs](https://img.shields.io/badge/docs-structured-success.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
+![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688.svg)
-![LLM](https://img.shields.io/badge/LLM-Agents-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
----
+This repository contains a comprehensive, modular, and deeply structured documentation set describing the full architecture of an advanced AI agent system. The goal of the project is to provide a clear, layered, and extensible blueprint for building, evaluating, and deploying intelligent agents capable of reasoning, interacting, learning, and acting safely in complex environments.
 
-## Overview
-
-**agent-ai-lab** provides a clean foundation for experimenting with AI agents powered by LLMs.  
-The project focuses on:
-
-- structured reasoning loops  
-- LLM-based planning  
-- tool calling and execution  
-- memory systems  
-- modular pipelines  
-- FastAPI server for agent interaction  
-
-The goal is to create a transparent, debuggable, and extensible environment for building intelligent agents.
+The documentation is organized into well-defined architectural layers, each representing a major subsystem of the agent. Every layer includes conceptual overviews, detailed specifications, observability models, safety considerations, and cross‑layer dependencies.
 
 ---
 
-## Features
+## Architecture Overview
 
-- **BaseAgent** with a multi-step reasoning loop  
-- **OpenAIPipeline** for LLM-based planning  
-- **ToolRegistry** for dynamic tool execution  
-- **Built-in tools** (echo, calculator, datetime)  
-- **Memory system** for storing interaction traces  
-- **FastAPI server** for running agents via HTTP  
-- **Experiments** documenting agent behavior and evolution  
-- **Docker support** for containerized deployment  
+The system architecture is divided into twelve major layers:
 
----
+### 1. Interaction Layer
+Manages communication between the agent and the user, including intent interpretation, dialogue management, response generation, and conversational safety.
 
-## Project Structure
+### 2. Cognitive & Planning Layer
+Responsible for reasoning, decision-making, long‑horizon planning, meta‑reasoning, and cognitive strategies.
 
-```
-agent-ai-lab/
-│
-├── .env.example
-├── Dockerfile
-├── pyproject.toml
-├── requirements.txt
-├── README.md
-│
-├── scripts/
-│   ├── run_server.sh
-│   ├── format.sh
-│   └── test.sh
-│
-├── src/
-│   ├── config/
-│   │   └── settings.py
-│   │
-│   ├── agent_core/
-│   │   ├── base_agent.py
-│   │   ├── tools.py
-│   │   ├── tools_builtin.py
-│   │   │
-│   │   ├── planning/
-│   │   │   ├── planner_base.py
-│   │   │   ├── single_step_planner.py
-│   │   │   └── multi_step_planner.py
-│   │   │
-│   │   └── memory/
-│   │       ├── memory.py
-│   │       ├── summarizer.py
-│   │       └── vector_memory.py
-│   │
-│   ├── tools_external/
-│   │   ├── weather.py
-│   │   ├── search.py
-│   │   └── wikipedia.py
-│   │
-│   ├── pipelines/
-│   │   ├── llm_pipeline.py
-│   │   └── openai_pipeline.py
-│   │
-│   └── server/
-│       └── api.py
-│
-├── docs/
-│   ├── architecture/
-│   │   └── agent-loop.md
-│   │
-│   └── experiments/
-│       ├── experiment-001-agent-loop.md
-│       ├── experiment-002-tool-calling.md
-│       ├── experiment-003-memory-summarization.md
-│       └── experiment-004-multi-step-planning.md
-│
-└── tests/
-    ├── test_agent.py
-    ├── test_memory.py
-    ├── test_planning.py
-    └── test_tools.py
-```
+### 3. Memory & Knowledge Layer
+Handles episodic, semantic, and working memory; knowledge representation; retrieval pipelines; and memory safety.
+
+### 4. Tooling & Execution Layer
+Defines how the agent selects, validates, sequences, and executes tools and external actions.
+
+### 5. Runtime & Orchestration Layer
+Controls the agent’s execution loop, state management, concurrency, scheduling, and error handling.
+
+### 6. Safety, Ethics & Governance Layer
+Ensures safe, ethical, compliant, and policy‑aligned behavior across all agent operations.
+
+### 7. Deployment, Reliability & Performance Layer
+Covers deployment models, scaling, environment configuration, reliability engineering, and performance optimization.
+
+### 8. Evaluation, Testing & Meta-learning Layer
+Provides evaluation frameworks, regression testing, benchmarking, and self‑optimization mechanisms.
+
+### 9. Multi-agent Layer
+Supports communication, coordination, and governance in multi‑agent systems.
+
+### 10. Embodiment & Simulation Layer
+Models perception, motor control, simulation environments, and embodied agent behavior.
+
+### 11. Cross-layer Architecture
+Defines global mechanisms such as configuration, versioning, lifecycle management, and system-wide observability.
+
+### 12. Backup & Migration Logs
+Contains backup copies of all documents and logs from automated migration scripts.
 
 ---
 
-# Getting Started
-
-### 1. Clone the repository
+## Repository Structure
 
 ```
-bash
-git clone https://github.com/krunixbase/agent-ai-lab
-cd agent-ai-lab
+docs/
+└── architecture/
+├── interaction/
+├── cognitive-planning/
+├── memory-knowledge/
+├── tooling-execution/
+├── runtime-orchestration/
+├── safety-ethics-governance/
+├── deployment-reliability-performance/
+├── evaluation-testing-meta-learning/
+├── multi-agent/
+├── embodiment-simulation/
+├── cross-layer/
+├── _backup/
+├── move.log
+└── move2.log
 ```
 
-### 2. Create your environment file
-
-```
-bash
-cp .env.example .env
-```
-
-Add your OpenAI API key:
-
-```
-OPENAI_API_KEY=your-key-here
-```
-
-### 3. Install dependencies
-
-```
-bash
-pip install -r requirements.txt
-```
-
-### 4. Run the FastAPI server
-
-```
-bash
-uvicorn src.server.api:app --reload
-```
-
-### 5. Server will be available at:
-
-```
-http://localhost:8000
-```
----
-
-# Running with Docker
-
-### 1. Build the image:
-
-```
-bash
-docker build -t agent-ai-lab .
-```
-
-### 2. Run the container:
-
-```
-bash
-docker run -p 8000:8000 --env-file .env agent-ai-lab
-```
----
-
-## Experiments
-
-The project includes a growing set of documented experiments:
-
-- Experiment 001 — Basic agent loop
-
-- Experiment 002 — Tool calling
-
-- Experiment 003 — Memory summarization
-
-- Experiment 004 — Multi-step planning
-
-Experiments live in:
-
-```
-docs/experiments/
-```
+Each folder contains a dedicated `README.md` describing the purpose of the layer and indexing all documents within it.
 
 ---
 
-# Roadmap
+## Goals of the Documentation
 
-## The full roadmap is available in:
-
-```
-ROADMAP.md
-```
-
-## It covers short‑term, mid‑term, and long‑term goals including:
-
-- multi-agent collaboration
-
-- persistent memory
-
-- RAG pipelines
-
-- external API tools
-
-- orchestration and distributed execution
+- Provide a **complete architectural blueprint** for advanced AI agent systems.
+- Enable **modular development**, where each subsystem is independently understandable.
+- Support **research, engineering, and governance workflows**.
+- Ensure **traceability**, **observability**, and **safety** across all layers.
+- Serve as a **reference architecture** for future implementations.
 
 ---
 
-# Contributing
+## Migration Notes
 
-Contributions are welcome.Please open an issue or submit a pull request.
+The repository includes two migration logs:
+
+- `move.log` — initial automated reorganization of architecture documents.
+- `move2.log` — secondary migration for remaining unclassified documents.
+
+All original files are preserved in `docs/architecture/_backup/`.
+
+---
+
+## Contributing
+
+Contributions are welcome. Please follow the guidelines in:
+
+```
+CONTRIBUTING.md
+```
 
 ---
 
@@ -220,3 +116,11 @@ Contributions are welcome.Please open an issue or submit a pull request.
 This project is licensed under the MIT License.
 
 ---
+
+## Acknowledgements
+
+This architecture is the result of extensive research, iteration, and refinement.  
+It is designed to support robust, safe, and scalable AI agent development.
+
+---
+
