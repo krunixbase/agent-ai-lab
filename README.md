@@ -5,7 +5,7 @@
 ![Docs](https://img.shields.io/badge/docs-structured-success.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
 ![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
-
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repository contains a comprehensive, modular, and deeply structured documentation set describing the full architecture of an advanced AI agent system. The goal of the project is to provide a clear, layered, and extensible blueprint for building, evaluating, and deploying intelligent agents capable of reasoning, interacting, learning, and acting safely in complex environments.
 
@@ -14,6 +14,10 @@ The documentation is organized into well-defined architectural layers, each repr
 ---
 
 ## Architecture Overview
+
+Below is a high-level diagram of the full agent architecture:
+
+![Architecture Diagram](docs/architecture/diagram.svg)
 
 The system architecture is divided into twelve major layers:
 
@@ -82,11 +86,11 @@ Each folder contains a dedicated `README.md` describing the purpose of the layer
 
 ## Goals of the Documentation
 
-- Provide a **complete architectural blueprint** for advanced AI agent systems.
-- Enable **modular development**, where each subsystem is independently understandable.
-- Support **research, engineering, and governance workflows**.
-- Ensure **traceability**, **observability**, and **safety** across all layers.
-- Serve as a **reference architecture** for future implementations.
+- Provide a complete architectural blueprint for advanced AI agent systems.
+- Enable modular development, where each subsystem is independently understandable.
+- Support research, engineering, and governance workflows.
+- Ensure traceability, observability, and safety across all layers.
+- Serve as a reference architecture for future implementations.
 
 ---
 
@@ -94,7 +98,7 @@ Each folder contains a dedicated `README.md` describing the purpose of the layer
 
 The repository includes two migration logs:
 
-- `move.log` — initial automated reorganization of architecture documents.
+- `move.log` — initial automated reorganization of architecture documents.  
 - `move2.log` — secondary migration for remaining unclassified documents.
 
 All original files are preserved in `docs/architecture/_backup/`.
@@ -105,13 +109,12 @@ All original files are preserved in `docs/architecture/_backup/`.
 
 Contributions are welcome. Please follow the guidelines in:
 
-```
 CONTRIBUTING.md
-```
+
 
 ---
 
-# License
+## License
 
 This project is licensed under the MIT License.
 
