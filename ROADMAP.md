@@ -1,146 +1,136 @@
-# Roadmap — agent‑ai‑lab
+# ROADMAP.md
 
-The roadmap outlines the planned evolution of the agent‑ai‑lab platform, covering improvements to the agent core, pipelines, tools, memory systems, and developer experience. The project is structured to support both rapid experimentation and production‑grade AI agent deployments.
+## Purpose
 
----
-
-## 1. Core Agent Enhancements
-
-### Short‑term (Q1)
-- Expand BaseAgent with multi‑step reasoning loop
-- Introduce structured tool‑calling with schema validation
-- Add ReasoningEngine v2 with planning heuristics
-- Improve LLMPipeline with real model integration (OpenAI, Anthropic, local models)
-
-### Mid‑term (Q2)
-- Add agent personality profiles and configurable system prompts
-- Introduce interruptible reasoning and step‑by‑step execution tracing
-- Add error‑handling and fallback strategies for tool failures
-
-### Long‑term (Q3+)
-- Multi‑agent collaboration framework
-- Autonomous task execution with triggers and schedules
-- Agent orchestration layer for distributed execution
+This roadmap outlines the planned evolution of **agent‑ai‑lab**, including upcoming architectural modules, system improvements, documentation expansions, and long‑term strategic directions. It provides a structured view of priorities and milestones to guide contributors and maintainers.
 
 ---
 
-## 2. Memory System
+## Phase 1 — Core Architecture Foundation (Complete)
 
-### Short‑term (Q1)
-- Extend Memory class with typed entries and metadata
-- Add context window management and summarization
+- Establish unified architecture map and cross‑layer dependency model.
+- Document all primary layers:
+  - Interaction  
+  - Cognitive & Planning  
+  - Memory & Knowledge  
+  - Tooling & Execution  
+  - Runtime & Orchestration  
+  - Safety, Ethics & Governance  
+  - Deployment, Reliability & Performance  
+  - Evaluation, Testing & Meta‑Learning  
+- Add root‑level project documents:
+  - ARCHITECTURE.md  
+  - SYSTEM_DESIGN.md  
+  - CONTRIBUTING.md  
+  - ARCHITECTURE_DIAGRAM.md  
+  - GLOSSARY.md  
+  - SECURITY_MODEL.md  
+  - RELEASE_PROCESS.md  
 
-### Mid‑term (Q2)
-- Persistent memory using Redis or PostgreSQL
-- Embedding‑based long‑term memory
-- Memory retrieval ranking and relevance scoring
-
-### Long‑term (Q3+)
-- Hybrid memory (symbolic + vector)
-- Multi‑agent shared memory spaces
-- Memory introspection and forgetting strategies
-
----
-
-## 3. Pipelines and Integrations
-
-### Short‑term (Q1)
-- Add RetrievalPipeline with embeddings and vector search
-- Support for ChromaDB and pgvector
-
-### Mid‑term (Q2)
-- Full RAG pipeline with document ingestion
-- Multi‑model LLM routing (OpenAI, Anthropic, local models)
-- Tool‑augmented pipelines (search, math, API calls)
-
-### Long‑term (Q3+)
-- Model‑agnostic pipeline orchestration
-- Adaptive pipeline selection based on task type
-- Integration with external knowledge graphs
+Status: **Completed**
 
 ---
 
-## 4. Tools and Actions
+## Phase 2 — Extended Architecture Modules (In Progress)
 
-### Short‑term (Q1)
-- Add basic built‑in tools (search, calculator, file ops)
-- Tool metadata and validation schemas
+### High‑Priority Modules
+- Multi‑Agent Coordination Architecture  
+- Embodiment & Simulation Architecture  
+- Knowledge Normalization & Integration Architecture  
+- Advanced Planning Models (hierarchical, multi‑objective, uncertainty‑aware)  
+- Adaptive Tool‑Use Learning v3  
+- Memory Consolidation & Forgetting Models  
+- Safety Evaluation Framework v2  
 
-### Mid‑term (Q2)
-- External API tools (GitHub, Notion, Slack, Jira)
-- Safe execution sandbox for user‑defined tools
+### Supporting Systems
+- Architecture‑aware observability dashboards  
+- Contract‑based dependency validation  
+- Automated scenario testing framework  
 
-### Long‑term (Q3+)
-- Tool marketplace for plug‑and‑play extensions
-- Auto‑generated tools from API specs (OpenAPI → tool)
-
----
-
-## 5. API Layer and Developer Experience
-
-### Short‑term (Q1)
-- Expand FastAPI endpoints (tools, memory, pipelines)
-- Add request/response schemas and OpenAPI docs
-
-### Mid‑term (Q2)
-- Streaming responses (SSE/WebSockets)
-- Authentication and API keys
-- CLI for running agents locally
-
-### Long‑term (Q3+)
-- Dashboard for monitoring agent runs
-- Visual reasoning trace explorer
-- Plugin system for custom endpoints
+Status: **Ongoing**
 
 ---
 
-## 6. Infrastructure and Deployment
+## Phase 3 — Implementation‑Ready Specifications (Upcoming)
 
-### Short‑term (Q1)
-- Dockerfile and local dev environment
-- Basic CI (linting, tests)
+### Formal Specifications
+- Machine‑readable architecture contracts  
+- Versioned subsystem interfaces  
+- Formal control‑flow definitions  
+- Safety policy schemas  
+- Tool capability and permission schemas  
 
-### Mid‑term (Q2)
-- Kubernetes deployment templates
-- Load‑balanced agent execution
-- Logging and metrics (Prometheus/Grafana)
+### Developer‑Facing Artifacts
+- Reference implementation guidelines  
+- Example subsystem templates  
+- Architecture‑aligned coding standards  
 
-### Long‑term (Q3+)
-- Distributed agent execution cluster
-- Event‑driven workflows (Kafka / Redis Streams)
-- Horizontal scaling for multi‑agent systems
+### Validation & Testing
+- Automated regression detection  
+- Architecture‑aware test harness  
+- Safety and governance simulation suite  
 
----
-
-## 7. Experiments and Research
-
-### Short‑term (Q1)
-- Experiment 001: Basic agent loop
-- Experiment 002: Tool‑calling
-- Experiment 003: Memory summarization
-
-### Mid‑term (Q2)
-- Experiment 004: Multi‑step reasoning
-- Experiment 005: RAG‑enhanced agent
-- Experiment 006: Multi‑agent communication
-
-### Long‑term (Q3+)
-- Experiment 007: Autonomous task execution
-- Experiment 008: Self‑reflective agents
-- Experiment 009: Hybrid symbolic‑neural reasoning
+Status: **Planned**
 
 ---
 
-## 8. Vision
+## Phase 4 — Advanced Capabilities (Future)
 
-The long‑term goal of agent‑ai‑lab is to provide a modular, extensible platform for building intelligent agents capable of:
+### Multi‑Agent Systems
+- Shared memory protocols  
+- Multi‑agent negotiation and coordination models  
+- Distributed reasoning and planning  
 
-- reasoning  
-- planning  
-- tool use  
-- memory management  
-- collaboration  
-- autonomous workflows  
+### Embodiment & Simulation
+- Sensor/actuator abstraction layer  
+- Simulation loop integration  
+- Environment‑aware planning  
 
-while remaining transparent, debuggable, and developer‑friendly.
+### Meta‑Learning & Optimization
+- Architecture‑safe optimization loops  
+- Cross‑layer performance tuning  
+- Long‑term adaptation strategies  
+
+### Governance & Oversight
+- Automated governance review tooling  
+- Policy evolution framework  
+- Cross‑environment compliance validation  
+
+Status: **Long‑term**
+
+---
+
+## Phase 5 — Ecosystem & Tooling (Future)
+
+- Architecture visualization tools  
+- Dependency graph explorers  
+- Release impact prediction models  
+- Documentation generation pipelines  
+- Cross‑repo architecture federation  
+
+Status: **Long‑term**
+
+---
+
+## Guiding Principles
+
+- Safety and governance always take precedence over capability expansion.  
+- Architecture must remain modular, extensible, and versioned.  
+- All new features must integrate with observability, auditing, and evaluation.  
+- Backward compatibility is maintained unless explicitly version‑bumped.  
+- Every roadmap item must include a clear impact analysis before implementation.
+
+---
+
+## Updating the Roadmap
+
+The roadmap is a living document. Updates should occur when:
+- New architecture modules are added  
+- Priorities shift  
+- Safety or governance requirements evolve  
+- Major milestones are completed  
+
+All updates must follow the CONTRIBUTING.md guidelines and include a clear rationale.
+
+
 
