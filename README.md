@@ -1,11 +1,11 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
-![Architecture](https://img.shields.io/badge/focus-agent%20architecture-blue.svg)
-![Docs](https://img.shields.io/badge/docs-100%25%20complete-success.svg)
+![Architecture Docs](https://img.shields.io/badge/architecture-docs-blue.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
 ![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
-![Release](https://img.shields.io/github/v/release/krunixbase/agent-ai-lab?label=latest%20release&color=orange)
+![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)
+[![Release](https://img.shields.io/github/v/release/krunixbase/agent-ai-lab?label=latest%20release&color=orange)](https://github.com/krunixbase/agent-ai-lab/releases)
+
 
 
 <!-- TOC START -->
@@ -219,6 +219,7 @@ This architecture is the result of extensive research, iteration, and refinement
 It is designed to support robust, safe, and scalable AI agent development.
 
 ---
+
 
 
 
