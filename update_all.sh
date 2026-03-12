@@ -1,28 +1,16 @@
 #!/bin/bash
 
 README="README.md"
-ARCH="docs/architecture"
 
-echo "🚀 Starting full documentation update pipeline..."
-
-###############################################
-# 0. Backup
-###############################################
-
-echo "📦 Creating backups..."
-cp "$README" "$README.bak"
-find "$ARCH" -type f -name "*.md" -exec cp {} {}.bak \;
-echo "📦 Backups created."
-
+echo "🚀 Updating README.md..."
 
 ###############################################
-# 1. Insert TOC after badges
+# 1. Add TOC under badges (po liniach z obrazkami)
 ###############################################
 
 TOC=$(cat << 'EOF'
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
-- [Architecture Diagram](#architecture-overview)
 - [Repository Structure](#repository-structure)
 - [Goals of the Documentation](#goals-of-the-documentation)
 - [Migration Notes](#migration-notes)
@@ -36,13 +24,21 @@ EOF
 )
 
 awk -v toc="$TOC" '
-NR==15 { print; print toc; next }
+/!
+
+\[License\]
+
+\(https:\/\/img.shields.io\/badge\/license-MIT-blue.svg\)/ {
+  print;
+  print "";
+  print toc;
+  next;
+}
 { print }
 ' "$README" > README.tmp && mv README.tmp "$README"
 
-
 ###############################################
-# 2. Insert INDEX.md block before "Repository Structure"
+# 2. Add Full Documentation Index before "## Repository Structure"
 ###############################################
 
 INDEX_BLOCK=$(cat << 'EOF'
@@ -59,13 +55,16 @@ EOF
 )
 
 awk -v block="$INDEX_BLOCK" '
-/Repository Structure/ { print block; print; next }
+/## Repository Structure/ {
+  print block;
+  print;
+  next;
+}
 { print }
 ' "$README" > README.tmp && mv README.tmp "$README"
 
-
 ###############################################
-# 3. Insert Layer Documentation block
+# 3. Add Layer Documentation before "## Goals of the Documentation"
 ###############################################
 
 LAYER_LINKS=$(cat << 'EOF'
@@ -114,43 +113,21 @@ EOF
 )
 
 awk -v block="$LAYER_LINKS" '
-/Goals of the Documentation/ { print block; print; next }
+/## Goals of the Documentation/ {
+  print block;
+  print;
+  next;
+}
 { print }
 ' "$README" > README.tmp && mv README.tmp "$README"
 
-
 ###############################################
-# 4. Add Related Documents to all .md files
-###############################################
-
-RELATED=$(cat << 'EOF'
-
----
-
-## Related Documents
-
-- [Parent Layer Overview](../README.md)
-- [Global Documentation Index](../INDEX.md)
-- [Architecture Diagram](../diagram.svg)
-
-EOF
-)
-
-echo "🔧 Adding Related Documents section to all .md files..."
-
-find "$ARCH" -type f -name "*.md" | while read -r file; do
-    printf "%s\n" "$RELATED" >> "$file"
-done
-
-
-###############################################
-# 5. Commit + push
+# 4. Commit + push
 ###############################################
 
 echo "📤 Committing changes..."
-git add .
-git commit -m "Full automated documentation update (TOC, links, related docs)"
+git add README.md
+git commit -m "Add TOC, index link, and layer documentation links to README"
 git push
 
-echo "🎉 All tasks completed successfully!"
-x
+echo "🎉 README update complete!"
