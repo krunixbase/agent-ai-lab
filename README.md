@@ -1,3 +1,12 @@
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![Architecture](https://img.shields.io/badge/focus-agent%20architecture-blue.svg)
+![Docs](https://img.shields.io/badge/docs-100%25%20complete-success.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
+![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+
+
 <!-- TOC START -->
 - [Agent AI Lab — System Architecture Documentation](#agent-ai-lab--system-architecture-documentation)
   - [Architecture Overview](#architecture-overview)
@@ -25,13 +34,6 @@
 <!-- TOC END -->
 
 # Agent AI Lab — System Architecture Documentation
-
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
-![Architecture](https://img.shields.io/badge/focus-agent%20architecture-blue.svg)
-![Docs](https://img.shields.io/badge/docs-structured-success.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
-![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repository contains a comprehensive, modular, and deeply structured documentation set describing the full architecture of an advanced AI agent system. The goal of the project is to provide a clear, layered, and extensible blueprint for building, evaluating, and deploying intelligent agents capable of reasoning, interacting, learning, and acting safely in complex environments.
 
@@ -216,4 +218,5 @@ This architecture is the result of extensive research, iteration, and refinement
 It is designed to support robust, safe, and scalable AI agent development.
 
 ---
+
 
