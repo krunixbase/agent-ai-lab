@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Python virtual environments (if used)
+venv/
+.env/
+
+# Node modules (if used for tooling)
+node_modules/
+
+# Generated artifacts
+dist/
+build/
+
+# Temporary files
+*.swp
+*.swo
