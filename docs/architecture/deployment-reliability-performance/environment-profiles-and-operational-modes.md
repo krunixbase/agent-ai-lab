@@ -90,3 +90,11 @@ Mode transitions must be deterministic and auditable.
 - [Parent Layer Overview](../README.md)
 - [Global Documentation Index](../INDEX.md)
 - [Architecture Diagram](../diagram.svg)
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

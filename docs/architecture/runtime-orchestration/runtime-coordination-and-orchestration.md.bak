@@ -68,3 +68,11 @@ Allows the runtime to adapt when the user changes intent mid-process.
 - Multi-agent orchestration.
 - Dynamic workflow adaptation.
 - Predictive orchestration optimization.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

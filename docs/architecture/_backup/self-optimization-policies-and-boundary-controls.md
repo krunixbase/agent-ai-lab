@@ -74,3 +74,11 @@ Self‑Optimization Policies and Boundary Controls define the rules, limits, and
 - [Parent Layer Overview](../README.md)
 - [Global Documentation Index](../INDEX.md)
 - [Architecture Diagram](../diagram.svg)
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

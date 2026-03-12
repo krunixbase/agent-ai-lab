@@ -116,3 +116,11 @@ Reflection updates summary memory with:
 - multi‑session pattern clustering,
 - long‑term goal graphs,
 - summary‑vector hybrid indexing.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

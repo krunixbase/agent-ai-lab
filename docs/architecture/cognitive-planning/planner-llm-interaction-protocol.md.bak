@@ -139,3 +139,11 @@ New output types or planner modes can be added without breaking the protocol.
 - introspective planner feedback loops,
 - schema versioning for evolving capabilities.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

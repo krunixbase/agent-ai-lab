@@ -94,3 +94,11 @@ Validates consistency across memory layers.
 - multi‑session consolidation cycles,
 - semantic consolidation graphs,
 - predictive consolidation heuristics.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -147,3 +147,11 @@ New output types or planner modes can be added without breaking the protocol.
 - [Parent Layer Overview](../README.md)
 - [Global Documentation Index](../INDEX.md)
 - [Architecture Diagram](../diagram.svg)
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

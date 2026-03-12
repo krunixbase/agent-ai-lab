@@ -165,3 +165,11 @@ New memory types or safety rules can be added without modifying core logic.
 - memory poisoning detection and mitigation,
 - cross‑agent shared memory with safety boundaries.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

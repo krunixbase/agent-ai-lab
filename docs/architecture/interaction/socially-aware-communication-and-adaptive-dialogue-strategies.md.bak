@@ -69,3 +69,11 @@ Socially Aware Communication and Adaptive Dialogue Strategies define how the age
 - Domain‑specific dialogue playbooks (education, coding, support).
 - Multi‑party dialogue strategies.
 - Adaptive calibration of directness vs. exploration.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -105,3 +105,11 @@ Traces are removed when:
 - trace diffing,  
 - trace compression,  
 - semantic trace search.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

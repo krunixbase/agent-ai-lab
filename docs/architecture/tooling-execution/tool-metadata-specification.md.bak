@@ -199,3 +199,11 @@ Metadata integrates seamlessly with planners, memory, and the orchestration laye
 - metadata‑based tool reliability scoring.
 
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

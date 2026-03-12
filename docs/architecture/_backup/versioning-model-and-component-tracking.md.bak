@@ -79,3 +79,11 @@ A global agent version references:
 - Automated dependency resolution.
 - Version impact analysis.
 - Multi-environment version synchronization.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

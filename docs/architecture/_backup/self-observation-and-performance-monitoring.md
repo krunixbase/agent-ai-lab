@@ -75,3 +75,11 @@ Self‑Observation and Performance Monitoring define how the agent continuously 
 - [Parent Layer Overview](../README.md)
 - [Global Documentation Index](../INDEX.md)
 - [Architecture Diagram](../diagram.svg)
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

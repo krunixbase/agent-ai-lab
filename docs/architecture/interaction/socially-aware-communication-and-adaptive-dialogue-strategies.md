@@ -77,3 +77,11 @@ Socially Aware Communication and Adaptive Dialogue Strategies define how the age
 - [Parent Layer Overview](../README.md)
 - [Global Documentation Index](../INDEX.md)
 - [Architecture Diagram](../diagram.svg)
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

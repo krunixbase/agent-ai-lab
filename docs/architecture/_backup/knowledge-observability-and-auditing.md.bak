@@ -59,3 +59,11 @@ Knowledge Observability and Auditing provide visibility into how knowledge is re
 - Real-time knowledge dashboards.
 - Automated detection of retrieval anomalies.
 - Cross-layer correlation of knowledge, reasoning, and execution events.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

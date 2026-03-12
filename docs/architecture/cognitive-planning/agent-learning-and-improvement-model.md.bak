@@ -224,3 +224,11 @@ Learning decisions are logged for debugging and analysis.
 - predictive preference modeling,
 - long‑term strategy refinement.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

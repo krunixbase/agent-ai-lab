@@ -186,3 +186,11 @@ The lifecycle integrates multiple subsystems (memory, planning, tools, LLM) with
 - adaptive retrieval strategies based on conversation length and complexity.
 
 ---
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -72,3 +72,11 @@ Transparency, Explainability, and User Trust define how the agent communicates i
 - Adaptive explainability based on user expertise.
 - Multi-modal transparency tools.
 - Trust calibration mechanisms.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

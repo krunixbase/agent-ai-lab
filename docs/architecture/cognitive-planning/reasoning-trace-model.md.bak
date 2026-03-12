@@ -193,3 +193,11 @@ Traces allow developers to analyze failures, loops, or inefficiencies.
 - cross‑session reasoning analytics,
 - trace‑driven planner adaptation.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

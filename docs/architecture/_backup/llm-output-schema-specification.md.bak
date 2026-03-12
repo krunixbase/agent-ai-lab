@@ -190,3 +190,11 @@ The agent always knows how to interpret LLM outputs.
 - schema versioning,
 - hybrid symbolic‑LLM output formats.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

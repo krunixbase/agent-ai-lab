@@ -71,3 +71,11 @@ Validates tool usage parameters and prevents unsafe tool actions.
 - Context-aware dynamic policy enforcement.
 - Automated safety regression testing.
 - Anomaly detection for unsafe reasoning patterns.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

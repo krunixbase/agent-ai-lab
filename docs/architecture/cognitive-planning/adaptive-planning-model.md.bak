@@ -247,3 +247,11 @@ Adaptation decisions are logged for debugging and analysis.
 - predictive plan optimization,
 - dynamic strategy selection using learned heuristics.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -66,3 +66,11 @@ Multi‑Party Interaction and Role‑Aware Coordination define how the agent beh
 - Structured multi‑party session protocols.
 - Role‑aware explanation and justification models.
 - Multi‑agent + multi‑human collaboration patterns.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

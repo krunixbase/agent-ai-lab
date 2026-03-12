@@ -254,3 +254,11 @@ Errors do not propagate across turns or sessions.
 - turn-level performance analytics,
 - adaptive context shaping.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

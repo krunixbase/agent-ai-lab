@@ -219,3 +219,11 @@ Evaluation drives iterative refinement of planner, LLM prompts, and tools.
 - cross‑agent comparative evaluation,
 - automated regression testing pipelines.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

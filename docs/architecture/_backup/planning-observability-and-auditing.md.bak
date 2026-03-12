@@ -65,3 +65,11 @@ Track planning latency, reasoning depth, and plan complexity.
 - Real-time planning dashboards.
 - Automated detection of reasoning anomalies.
 - Cross-layer correlation of reasoning, planning, and execution events.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -76,3 +76,11 @@ Perspective Modeling and User State Representation define how the agent maintain
 - Domain‑specific user state schemas.
 - Multi‑party conversation state modeling.
 - Adaptive epistemic modeling based on interaction history.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

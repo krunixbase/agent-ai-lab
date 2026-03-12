@@ -53,3 +53,11 @@ Multi‑Agent Coordination Architecture v2 defines how multiple autonomous agent
 - Multi‑agent negotiation and market‑based coordination.
 - Cross‑organization agent federation.
 - Multi‑agent cognitive collaboration.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

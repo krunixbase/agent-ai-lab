@@ -63,3 +63,11 @@ Multi‑Agent Safety, Ethics, and Governance define how safety, ethical principl
 - Multi‑agent ethical consensus models.
 - Distributed safety negotiation.
 - Cross‑organization governance frameworks.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -64,3 +64,11 @@ Integrate long‑term preferences and goals from memory systems.
 - multi-user interaction handling,
 - conversational style transfer,
 - long-horizon dialogue graphs.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

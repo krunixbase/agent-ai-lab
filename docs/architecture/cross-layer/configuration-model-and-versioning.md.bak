@@ -78,3 +78,11 @@ Invalid configurations are rejected with detailed diagnostics.
 - Live configuration reloading.
 - Configuration diffing and impact analysis.
 - Multi-environment configuration synchronization.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

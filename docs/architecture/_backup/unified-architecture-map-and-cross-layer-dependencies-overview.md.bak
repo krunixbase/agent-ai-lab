@@ -53,3 +53,11 @@ This overview references and connects all existing architecture documents, inclu
 - Visual architecture diagrams and machine‑readable dependency graphs.
 - Automated impact analysis tooling.
 - Cross‑repo or cross‑system architecture federation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

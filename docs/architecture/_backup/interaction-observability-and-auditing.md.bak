@@ -59,3 +59,11 @@ Interaction Observability and Auditing provide visibility into how the agent com
 - Real-time interaction dashboards.
 - Automated detection of communication anomalies.
 - Cross-layer correlation of interaction, reasoning, and execution events.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

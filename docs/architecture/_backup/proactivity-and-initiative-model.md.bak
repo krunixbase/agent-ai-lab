@@ -73,3 +73,11 @@ Anticipate needs in long-term workflows.
 - adaptive initiative tuning,
 - long-horizon initiative graphs,
 - preference-based initiative profiles.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

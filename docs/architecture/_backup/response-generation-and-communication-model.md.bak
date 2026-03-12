@@ -78,3 +78,11 @@ The agent must avoid:
 - Multi-modal response generation.
 - Adaptive communication styles.
 - Domain-specific communication modules.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -139,3 +139,11 @@ New layers or instructions can be added without breaking existing logic.
 - prompt caching for repeated tasks,
 - automatic detection of irrelevant memory.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

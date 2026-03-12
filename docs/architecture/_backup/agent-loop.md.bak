@@ -163,3 +163,11 @@ The loop supports iterative reasoning where the agent:
 adaptive summarization strategies,
 
 multi-agent coordination and shared memory spaces.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

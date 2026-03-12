@@ -63,3 +63,11 @@ It acts as the cognitive engine of the agent, bridging natural language understa
 - Adaptive planning based on historical outcomes.
 - Long-horizon reasoning for multi-session workflows.
 - Domain-specific planning templates.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

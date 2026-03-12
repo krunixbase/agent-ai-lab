@@ -220,3 +220,11 @@ Reflection decisions are logged for debugging and analysis.
 - reflective planning loops,
 - multi‑agent reflective coordination.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

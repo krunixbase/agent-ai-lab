@@ -67,3 +67,11 @@ Self‑Observation and Performance Monitoring define how the agent continuously 
 - Predictive anomaly detection.
 - Multi‑agent observation aggregation.
 - Domain‑specific monitoring modules.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

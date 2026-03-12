@@ -68,3 +68,11 @@ The Creative Synthesis and Idea Generation Engine defines how the agent construc
 - Multi‑agent collaborative synthesis.
 - Domain‑specific synthesis engines.
 - Adaptive synthesis tuned to user creativity preferences.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

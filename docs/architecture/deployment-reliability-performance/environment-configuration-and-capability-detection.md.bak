@@ -79,3 +79,11 @@ Capabilities influence planning, execution, memory, and retrieval behavior.
 - Dynamic capability detection during runtime.
 - Predictive capability modeling.
 - Multi-environment capability aggregation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -164,3 +164,11 @@ New planner types or decision rules can be added without modifying core logic.
 - hybrid planners combining symbolic and LLM reasoning,
 - planner introspection for debugging and transparency.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

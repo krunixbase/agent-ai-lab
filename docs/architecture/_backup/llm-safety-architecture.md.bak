@@ -134,3 +134,11 @@ Sensitive or personal data is never stored, reused, or exposed.
 - user‑configurable safety profiles,
 - real‑time safety monitoring dashboards.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

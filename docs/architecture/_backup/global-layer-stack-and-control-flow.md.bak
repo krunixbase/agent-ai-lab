@@ -74,3 +74,11 @@ Global Layer Stack and Control Flow define the vertical structure of the agent s
 - Formal control‑flow specifications.
 - Automated verification of control‑flow invariants.
 - Cross‑environment control‑flow variants.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -162,3 +162,11 @@ The same input should always produce the same boundary classification.
 - multi‑agent shared session boundaries,
 - adaptive thresholds based on user behavior.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

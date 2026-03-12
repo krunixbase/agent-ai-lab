@@ -244,3 +244,11 @@ Long‑horizon decisions are logged for debugging and analysis.
 - adaptive long‑term planning heuristics,
 - cross‑session reflective learning (non‑self‑modifying).
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -166,3 +166,11 @@ Tool outputs can enrich the agent’s knowledge base, improving future reasoning
 - tool reliability scoring and fallback strategies,
 
 - support for asynchronous or streaming tool outputs.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

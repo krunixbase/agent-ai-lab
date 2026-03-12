@@ -210,3 +210,11 @@ All safety events are logged for debugging and analysis.
 - real‑time safety dashboards,
 - automated safety regression testing.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

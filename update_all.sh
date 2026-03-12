@@ -6,21 +6,17 @@ ARCH="docs/architecture"
 echo "🚀 Starting full documentation update pipeline..."
 
 ###############################################
-# 0. Backup all files
+# 0. Backup
 ###############################################
 
 echo "📦 Creating backups..."
 cp "$README" "$README.bak"
-
-find "$ARCH" -type f -name "*.md" | while read -r file; do
-    cp "$file" "$file.bak"
-done
-
+find "$ARCH" -type f -name "*.md" -exec cp {} {}.bak \;
 echo "📦 Backups created."
 
 
 ###############################################
-# 1. Add TOC to README.md
+# 1. Insert TOC after badges
 ###############################################
 
 TOC=$(cat << 'EOF'
@@ -39,11 +35,14 @@ TOC=$(cat << 'EOF'
 EOF
 )
 
-sed -i "15a $TOC" "$README"
+awk -v toc="$TOC" '
+NR==15 { print; print toc; next }
+{ print }
+' "$README" > README.tmp && mv README.tmp "$README"
 
 
 ###############################################
-# 2. Add link to INDEX.md
+# 2. Insert INDEX.md block before "Repository Structure"
 ###############################################
 
 INDEX_BLOCK=$(cat << 'EOF'
@@ -59,11 +58,14 @@ For a complete list of all architecture documents across all layers, see:
 EOF
 )
 
-sed -i "/Repository Structure/i $INDEX_BLOCK" "$README"
+awk -v block="$INDEX_BLOCK" '
+/Repository Structure/ { print block; print; next }
+{ print }
+' "$README" > README.tmp && mv README.tmp "$README"
 
 
 ###############################################
-# 3. Add links to README of each layer
+# 3. Insert Layer Documentation block
 ###############################################
 
 LAYER_LINKS=$(cat << 'EOF'
@@ -111,11 +113,14 @@ LAYER_LINKS=$(cat << 'EOF'
 EOF
 )
 
-sed -i "/Goals of the Documentation/i $LAYER_LINKS" "$README"
+awk -v block="$LAYER_LINKS" '
+/Goals of the Documentation/ { print block; print; next }
+{ print }
+' "$README" > README.tmp && mv README.tmp "$README"
 
 
 ###############################################
-# 4. Add Related Documents section to all .md files
+# 4. Add Related Documents to all .md files
 ###############################################
 
 RELATED=$(cat << 'EOF'
@@ -134,7 +139,7 @@ EOF
 echo "🔧 Adding Related Documents section to all .md files..."
 
 find "$ARCH" -type f -name "*.md" | while read -r file; do
-    echo "$RELATED" >> "$file"
+    printf "%s\n" "$RELATED" >> "$file"
 done
 
 
@@ -148,3 +153,4 @@ git commit -m "Full automated documentation update (TOC, links, related docs)"
 git push
 
 echo "🎉 All tasks completed successfully!"
+x

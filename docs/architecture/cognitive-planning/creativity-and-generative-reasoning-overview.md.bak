@@ -55,3 +55,11 @@ Agent Creativity & Generative Reasoning Architecture v2 defines how the agent pr
 - Domain‑specific creative reasoning modules.
 - Multi‑agent collaborative creativity.
 - Adaptive creativity tuned to user preferences.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

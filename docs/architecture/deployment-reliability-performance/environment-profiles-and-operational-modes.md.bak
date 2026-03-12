@@ -82,3 +82,11 @@ Mode transitions must be deterministic and auditable.
 - Dynamic mode switching based on real-time signals.
 - Multi-tenant profile isolation.
 - Domain-specific operational modes.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)
