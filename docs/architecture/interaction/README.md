@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Interaction Layer](#interaction-layer)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Interaction Layer
 
 The Interaction Layer manages all communication between the agent and the user. It interprets user intent, maintains conversational context, generates responses, and ensures safe and coherent dialogue.
@@ -36,3 +43,16 @@ The Interaction Layer manages all communication between the agent and the user. 
 - social-intelligence-and-theory-of-mind-overview.md  
 - social-intelligence-observability-and-behavior-auditing.md  
 - user-intent-handling-and-context-management.md
+
+
+## Related Documents
+- [cognitive-planning](docs\architecture\cognitive-planning\README.md)
+- [cross-layer](docs\architecture\cross-layer\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [evaluation-testing-meta-learning](docs\architecture\evaluation-testing-meta-learning\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [multi-agent](docs\architecture\multi-agent\README.md)
+- [runtime-orchestration](docs\architecture\runtime-orchestration\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)

@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Evaluation, Testing & Meta-learning Layer](#evaluation-testing--meta-learning-layer)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Evaluation, Testing & Meta-learning Layer
 
 The Evaluation, Testing & Meta-learning Layer measures the agent’s performance, detects regressions, and enables self-improvement.
@@ -34,3 +41,16 @@ The Evaluation, Testing & Meta-learning Layer measures the agent’s performance
 - test-suite-architecture.md  
 - testing-and-validation-overview.md  
 - testing-observability-and-quality-reporting.md
+
+
+## Related Documents
+- [cognitive-planning](docs\architecture\cognitive-planning\README.md)
+- [cross-layer](docs\architecture\cross-layer\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [interaction](docs\architecture\interaction\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [multi-agent](docs\architecture\multi-agent\README.md)
+- [runtime-orchestration](docs\architecture\runtime-orchestration\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)

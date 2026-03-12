@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Cross-layer Architecture](#cross-layer-architecture)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Cross-layer Architecture
 
 The Cross-layer Architecture defines global mechanisms that span multiple layers, including configuration, versioning, lifecycle management, and system-wide observability.
@@ -38,3 +45,16 @@ The Cross-layer Architecture defines global mechanisms that span multiple layers
 - transparency-explainability-and-user-trust.md  
 - unified-architecture-map-and-cross-layer-dependencies-overview.md  
 - versioning-model-and-component-tracking.md
+
+
+## Related Documents
+- [cognitive-planning](docs\architecture\cognitive-planning\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [evaluation-testing-meta-learning](docs\architecture\evaluation-testing-meta-learning\README.md)
+- [interaction](docs\architecture\interaction\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [multi-agent](docs\architecture\multi-agent\README.md)
+- [runtime-orchestration](docs\architecture\runtime-orchestration\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)

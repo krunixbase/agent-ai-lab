@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Multi-agent Layer](#multi-agent-layer)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Multi-agent Layer
 
 The Multi-agent Layer enables coordination, communication, and collaboration between multiple agents operating in shared environments.
@@ -22,3 +29,16 @@ The Multi-agent Layer enables coordination, communication, and collaboration bet
 - multi-agent-observability-and-coordination-auditing.md  
 - multi-agent-safety-ethics-and-governance.md  
 - multi-party-interaction-and-role-aware-coordination.md
+
+
+## Related Documents
+- [cognitive-planning](docs\architecture\cognitive-planning\README.md)
+- [cross-layer](docs\architecture\cross-layer\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [evaluation-testing-meta-learning](docs\architecture\evaluation-testing-meta-learning\README.md)
+- [interaction](docs\architecture\interaction\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [runtime-orchestration](docs\architecture\runtime-orchestration\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)

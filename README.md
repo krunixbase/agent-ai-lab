@@ -1,3 +1,29 @@
+<!-- TOC START -->
+- [Agent AI Lab — System Architecture Documentation](#agent-ai-lab--system-architecture-documentation)
+  - [Architecture Overview](#architecture-overview)
+  - [Table of Contents](#table-of-contents)
+  - [Full Documentation Index](#full-documentation-index)
+  - [Layer Documentation](#layer-documentation)
+    - [1. Interaction Layer](#1-interaction-layer)
+    - [2. Cognitive & Planning Layer](#2-cognitive--planning-layer)
+    - [3. Memory & Knowledge Layer](#3-memory--knowledge-layer)
+    - [4. Tooling & Execution Layer](#4-tooling--execution-layer)
+    - [5. Runtime & Orchestration Layer](#5-runtime--orchestration-layer)
+    - [6. Safety, Ethics & Governance Layer](#6-safety-ethics--governance-layer)
+    - [7. Deployment, Reliability & Performance Layer](#7-deployment-reliability--performance-layer)
+    - [8. Evaluation, Testing & Meta-learning Layer](#8-evaluation-testing--meta-learning-layer)
+    - [9. Multi-agent Layer](#9-multi-agent-layer)
+    - [10. Embodiment & Simulation Layer](#10-embodiment--simulation-layer)
+    - [11. Cross-layer Architecture](#11-cross-layer-architecture)
+    - [12. Backup & Migration Logs](#12-backup--migration-logs)
+  - [Repository Structure](#repository-structure)
+  - [Goals of the Documentation](#goals-of-the-documentation)
+  - [Migration Notes](#migration-notes)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgements](#acknowledgements)
+<!-- TOC END -->
+
 # Agent AI Lab — System Architecture Documentation
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)

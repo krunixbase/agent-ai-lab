@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Cognitive & Planning Layer](#cognitive--planning-layer)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Cognitive & Planning Layer
 
 The Cognitive & Planning Layer is responsible for reasoning, decision-making, strategy generation, and long‑horizon planning. It transforms user intent into structured plans and actions.
@@ -38,3 +45,16 @@ The Cognitive & Planning Layer is responsible for reasoning, decision-making, st
 - reasoning-and-planning-optimization.md  
 - reasoning-model-and-multi-step-reasoning.md  
 - reasoning-trace-model.md
+
+
+## Related Documents
+- [cross-layer](docs\architecture\cross-layer\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [evaluation-testing-meta-learning](docs\architecture\evaluation-testing-meta-learning\README.md)
+- [interaction](docs\architecture\interaction\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [multi-agent](docs\architecture\multi-agent\README.md)
+- [runtime-orchestration](docs\architecture\runtime-orchestration\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)

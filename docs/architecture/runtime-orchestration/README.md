@@ -1,3 +1,10 @@
+<!-- TOC START -->
+- [Runtime & Orchestration Layer](#runtime--orchestration-layer)
+  - [Responsibilities](#responsibilities)
+  - [Relationships to Other Layers](#relationships-to-other-layers)
+  - [Documents in This Layer](#documents-in-this-layer)
+<!-- TOC END -->
+
 # Runtime & Orchestration Layer
 
 The Runtime & Orchestration Layer governs the agent’s execution loop, state management, scheduling, concurrency, and error handling.
@@ -38,3 +45,16 @@ The Runtime & Orchestration Layer governs the agent’s execution loop, state ma
 - runtime-observability-and-auditing.md  
 - runtime-safety-and-policy-enforcement.md  
 - turn-execution-model.md
+
+
+## Related Documents
+- [cognitive-planning](docs\architecture\cognitive-planning\README.md)
+- [cross-layer](docs\architecture\cross-layer\README.md)
+- [deployment-reliability-performance](docs\architecture\deployment-reliability-performance\README.md)
+- [embodiment-simulation](docs\architecture\embodiment-simulation\README.md)
+- [evaluation-testing-meta-learning](docs\architecture\evaluation-testing-meta-learning\README.md)
+- [interaction](docs\architecture\interaction\README.md)
+- [memory-knowledge](docs\architecture\memory-knowledge\README.md)
+- [multi-agent](docs\architecture\multi-agent\README.md)
+- [safety-ethics-governance](docs\architecture\safety-ethics-governance\README.md)
+- [tooling-execution](docs\architecture\tooling-execution\README.md)
