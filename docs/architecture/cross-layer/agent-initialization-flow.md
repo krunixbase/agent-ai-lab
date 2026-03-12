@@ -130,3 +130,11 @@ Initialization can adapt to:
 - multi-agent initialization with shared memory,
 - diagnostics and health checks during startup.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

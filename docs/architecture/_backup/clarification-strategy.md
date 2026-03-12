@@ -68,3 +68,11 @@ User message lacks actionable meaning.
 - adaptive clarification styles,
 - multi-step clarification chains,
 - preference-based clarification behavior.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

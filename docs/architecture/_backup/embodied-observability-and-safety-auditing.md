@@ -60,3 +60,11 @@ Embodied Observability and Safety Auditing provide visibility into sensorimotor 
 - Real‑time embodied dashboards.
 - Multi‑agent embodied auditing.
 - Predictive safety analytics.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

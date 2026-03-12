@@ -82,3 +82,11 @@ Ranking is deterministic: identical inputs produce identical ordering.
 - Multi-source fusion ranking.
 - Adaptive ranking based on historical performance.
 - Domain-specific ranking heuristics.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

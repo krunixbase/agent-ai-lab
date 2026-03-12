@@ -69,3 +69,11 @@ A goal includes:
 - Multi-intent interpretation for complex requests.
 - Adaptive goal formulation based on user behavior.
 - Domain-specific goal templates.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

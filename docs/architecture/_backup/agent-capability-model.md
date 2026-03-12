@@ -214,3 +214,11 @@ Capabilities are designed to be easily consumed by the planner.
 - capability‑driven optimization of planner strategies,
 - capability introspection for debugging and analytics.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -64,3 +64,11 @@ It acts as the communication interface that ensures internal system behavior is 
 - Multi-modal interaction support.
 - Adaptive communication styles based on user preferences.
 - Long-horizon conversational continuity.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

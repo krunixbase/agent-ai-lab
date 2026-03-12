@@ -72,3 +72,11 @@ A plan includes:
 - Multi-goal planning.
 - Long-horizon planning across sessions.
 - Adaptive planning based on execution feedback.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

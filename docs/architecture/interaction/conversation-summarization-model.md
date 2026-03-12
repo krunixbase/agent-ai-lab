@@ -138,3 +138,11 @@ Sensitive or personal data is excluded unless explicitly allowed.
 - automatic detection of summary-worthy events,
 - multi-agent shared summarization models.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

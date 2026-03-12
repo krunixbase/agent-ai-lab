@@ -236,3 +236,11 @@ Security decisions are logged internally for auditing and debugging.
 - encrypted vector memory,
 - privacy‑preserving retrieval models.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

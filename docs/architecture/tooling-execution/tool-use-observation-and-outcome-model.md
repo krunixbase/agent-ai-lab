@@ -70,3 +70,11 @@ The Tool‑Use Observation and Outcome Model defines how the agent captures, str
 - Domain‑tagged tool‑use observations.
 - Cross‑environment outcome comparison.
 - Predictive outcome modeling for tool calls.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

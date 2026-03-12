@@ -55,3 +55,11 @@ Agent Configuration & Policy Layer v2 defines how global and subsystem-specific 
 - Dynamic configuration adaptation.
 - Policy simulation and impact analysis.
 - Multi-tenant configuration isolation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

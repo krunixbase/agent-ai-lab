@@ -61,3 +61,11 @@ Governance Observability and Auditability provide visibility into governance dec
 - Real-time governance dashboards.
 - Automated detection of governance anomalies.
 - Cross-layer governance correlation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

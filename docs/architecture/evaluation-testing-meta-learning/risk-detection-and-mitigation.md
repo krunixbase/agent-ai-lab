@@ -106,3 +106,11 @@ Logs detected risks and mitigation actions for evaluation and improvement.
 - Multi‑layered risk detection combining linguistic, semantic, and behavioral signals.
 - Predictive risk modeling for long‑horizon reasoning.
 - Automated evaluation of mitigation effectiveness.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

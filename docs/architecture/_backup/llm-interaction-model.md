@@ -180,3 +180,11 @@ Fallback strategies ensure the planner can recover gracefully.
 - hybrid symbolic–LLM reasoning models.
 
 ---
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -113,3 +113,11 @@ Logs escalation events for evaluation, debugging, and continuous improvement.
 - Multi‑stage escalation flows for complex interactions.
 - Automated evaluation of fallback effectiveness.
 - Enhanced detection of adversarial prompting patterns.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

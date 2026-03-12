@@ -66,3 +66,11 @@ Distributed Task Allocation and Coordination define how tasks are decomposed, as
 - Market‑based task allocation.
 - Multi‑agent swarm coordination.
 - Predictive load balancing.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

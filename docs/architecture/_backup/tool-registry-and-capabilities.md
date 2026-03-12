@@ -80,3 +80,11 @@ Tools may evolve over time; the registry maintains version history and compatibi
 - Automated capability inference.
 - Dynamic registry updates.
 - Tool performance scoring.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

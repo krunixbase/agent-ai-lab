@@ -76,3 +76,11 @@ Failure Detection and Diagnostics define how the agent identifies failures, anom
 - Predictive failure detection.
 - Cross-environment anomaly correlation.
 - Automated root-cause analysis.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

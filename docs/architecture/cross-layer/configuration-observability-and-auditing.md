@@ -60,3 +60,11 @@ Configuration Observability and Auditing provide visibility into configuration c
 - Real-time configuration dashboards.
 - Automated detection of configuration anomalies.
 - Cross-layer correlation of configuration, reasoning, and execution events.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

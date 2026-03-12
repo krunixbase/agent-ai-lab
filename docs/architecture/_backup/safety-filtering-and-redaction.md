@@ -79,3 +79,11 @@ Logs filtering decisions for evaluation, debugging, and continuous improvement.
 - Semantic filtering that preserves more meaning while ensuring compliance.
 - Adaptive filtering thresholds based on user preferences and risk profiles.
 - Automated evaluation of redaction quality and safety outcomes.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -216,3 +216,11 @@ Integrated knowledge is optimized for planner consumption.
 - multi-agent knowledge sharing,
 - predictive knowledge retrieval.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

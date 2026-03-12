@@ -52,3 +52,11 @@ Knowledge & Retrieval Architecture v2 defines how the agent accesses, organizes,
 - Domain-specific retrieval modules.
 - Adaptive retrieval strategies based on user behavior.
 - Multi-source fusion for complex reasoning tasks.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

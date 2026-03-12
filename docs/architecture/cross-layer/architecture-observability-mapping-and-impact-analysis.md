@@ -73,3 +73,11 @@ For each major layer, map to its observability and auditing models:
 - Automated impact analysis tooling using dependency graphs.
 - Cross‑repo or cross‑service observability federation.
 - Architecture‑aware SLOs and error budgets.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

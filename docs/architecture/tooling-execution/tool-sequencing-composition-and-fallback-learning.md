@@ -86,3 +86,11 @@ Tool Sequencing, Composition, and Fallback Learning define how the agent learns 
 - Domain‑specific tool pipelines.
 - Multi‑agent tool composition (different agents owning different tools).
 - Predictive selection of fallback paths based on context.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -79,3 +79,11 @@ Requests about the conversation itself.
 - probabilistic intent scoring,
 - multi-intent disambiguation,
 - long-horizon intent linking.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

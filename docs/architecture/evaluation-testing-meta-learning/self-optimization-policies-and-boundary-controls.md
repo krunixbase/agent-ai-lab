@@ -66,3 +66,11 @@ Self‑Optimization Policies and Boundary Controls define the rules, limits, and
 - Adaptive policy tuning.
 - Multi‑agent optimization governance.
 - Predictive risk scoring for optimization proposals.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

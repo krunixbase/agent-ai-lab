@@ -148,3 +148,11 @@ Tools are sandboxed and cannot interfere with each other or with the agent’s i
 - multi‑tool pipelines with dependency graphs,
 - remote tool execution via RPC or microservices.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

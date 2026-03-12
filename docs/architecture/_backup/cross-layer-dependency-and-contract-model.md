@@ -70,3 +70,11 @@ Cross‑Layer Dependency and Contract Model defines the explicit dependencies an
 - Machine‑readable contract specifications.
 - Automated dependency graph generation.
 - Contract‑based regression testing.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -69,3 +69,11 @@ Tool Mastery Observability and Learning Auditing provide visibility into tool‑
 - Real‑time tool mastery dashboards.
 - Automated detection of tool‑use learning anomalies.
 - Cross‑agent sharing of audited tool‑use knowledge.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -231,3 +231,11 @@ Developers can easily understand tool capabilities and constraints.
 - taxonomy‑driven planner optimization,
 - automated tool clustering using embeddings.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

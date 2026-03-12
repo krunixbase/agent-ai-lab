@@ -124,3 +124,11 @@ Uses episodic memory to:
 - multi‑session episodic linking,
 - predictive episodic retrieval,
 - episodic‑to‑vector hybrid indexing.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

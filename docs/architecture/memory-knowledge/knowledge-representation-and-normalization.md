@@ -69,3 +69,11 @@ Knowledge is represented using:
 - Domain-specific schema libraries.
 - Automated schema evolution.
 - Cross-source entity resolution.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

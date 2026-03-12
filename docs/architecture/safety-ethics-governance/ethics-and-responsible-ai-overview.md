@@ -55,3 +55,11 @@ Agent Ethics & Responsible AI Architecture v2 defines the ethical foundations, b
 - Cultural adaptation modules for region-specific ethics.
 - Multi-agent ethical coordination.
 - Predictive ethical risk detection.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -52,3 +52,11 @@ Agent Embodied & Sensorimotor Architecture v2 defines how an agent perceives, in
 - Multi‑agent embodied coordination.
 - Adaptive sensorimotor learning.
 - Real‑time embodied cognition.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

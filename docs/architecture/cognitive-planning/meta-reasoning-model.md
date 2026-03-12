@@ -216,3 +216,11 @@ Meta‑reasoning should refine reasoning without overwhelming the main execution
 - long‑term meta‑learning (non‑self‑modifying),
 - dynamic strategy optimization.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

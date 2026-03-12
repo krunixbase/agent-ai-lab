@@ -117,3 +117,11 @@ Shows:
 - interactive debugging console,  
 - real-time trace streaming,  
 - anomaly detection for reasoning patterns.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

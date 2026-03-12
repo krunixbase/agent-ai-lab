@@ -60,3 +60,11 @@ Security Observability and Auditing provide visibility into security events, pol
 - Real-time security dashboards.
 - Automated anomaly detection.
 - Cross-environment security correlation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

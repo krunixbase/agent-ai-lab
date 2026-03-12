@@ -71,3 +71,11 @@ Generative Reasoning Modes and Cognitive Strategies define how the agent explore
 - Domain‑adaptive generative strategies.
 - Multi‑agent generative collaboration.
 - Predictive creativity tuning.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

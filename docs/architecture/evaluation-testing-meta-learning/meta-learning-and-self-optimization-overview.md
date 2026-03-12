@@ -55,3 +55,11 @@ Agent Meta‑Learning & Self‑Optimization Architecture v2 defines how the agen
 - Predictive meta‑learning models.
 - Multi‑agent shared optimization.
 - Domain‑adaptive self‑improvement modules.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

@@ -70,3 +70,11 @@ Ensure responses comply with safety constraints.
 - dynamic style adaptation,
 - user-specific formatting profiles,
 - multimodal response generation.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

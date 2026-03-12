@@ -116,3 +116,11 @@ It enables:
 - cross‑memory semantic linking,
 - multi‑vector hybrid retrieval,
 - temporal semantic weighting.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

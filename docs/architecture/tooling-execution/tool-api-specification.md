@@ -205,3 +205,11 @@ Tools can be added without modifying the planner or agent loop as long as they f
 - multi-tool orchestration with dependency graphs.
 
 ---
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

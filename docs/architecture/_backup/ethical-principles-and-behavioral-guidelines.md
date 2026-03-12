@@ -76,3 +76,11 @@ Ethical Principles and Behavioral Guidelines define the normative rules and beha
 - Domain-specific ethical guidelines.
 - Adaptive ethical reasoning modules.
 - Cross-cultural ethical alignment.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

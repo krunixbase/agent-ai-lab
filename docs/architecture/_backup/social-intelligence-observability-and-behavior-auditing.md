@@ -60,3 +60,11 @@ Social Intelligence Observability and Behavior Auditing provide visibility into 
 - Real‑time social behavior dashboards.
 - Automated detection of social‑behavior anomalies.
 - Cross‑agent social‑intelligence correlation in multi‑agent systems.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

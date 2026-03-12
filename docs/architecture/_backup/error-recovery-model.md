@@ -246,3 +246,11 @@ Errors must not propagate across steps, plans, or sessions.
 - automated recovery analytics,
 - self-healing planner mechanisms.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

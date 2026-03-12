@@ -66,3 +66,11 @@ Sensorimotor Learning and Adaptation define how the agent improves perception, c
 - Multi‑agent shared learning.
 - Real‑time adaptive control.
 - Embodied reinforcement learning modules.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

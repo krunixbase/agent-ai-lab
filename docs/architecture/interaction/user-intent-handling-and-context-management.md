@@ -75,3 +75,11 @@ User Intent Handling and Context Management define how the agent interprets user
 - Multi-intent interpretation for complex workflows.
 - Adaptive context retention policies.
 - Domain-specific intent templates.
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

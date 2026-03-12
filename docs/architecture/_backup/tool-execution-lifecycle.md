@@ -166,3 +166,11 @@ Errors are captured and handled gracefully, preventing system crashes.
 - remote tool execution via microservices,
 - tool sandboxing for untrusted operations.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)

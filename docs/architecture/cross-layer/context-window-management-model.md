@@ -240,3 +240,11 @@ Compression minimizes token usage without losing meaning.
 - hierarchical memory compression,
 - predictive context shaping for multi-step plans.
 
+
+---
+
+## Related Documents
+
+- [Parent Layer Overview](../README.md)
+- [Global Documentation Index](../INDEX.md)
+- [Architecture Diagram](../diagram.svg)
