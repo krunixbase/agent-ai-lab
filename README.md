@@ -6,149 +6,140 @@
 ![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)
 [![Release](https://img.shields.io/github/v/release/krunixbase/agent-ai-lab?label=latest%20release&color=orange)](https://github.com/krunixbase/agent-ai-lab/releases)
 
-
-
-<!-- TOC START -->
-- [Agent AI Lab — System Architecture Documentation](#agent-ai-lab--system-architecture-documentation)
-  - [Architecture Overview](#architecture-overview)
-  - [Table of Contents](#table-of-contents)
-  - [Full Documentation Index](#full-documentation-index)
-  - [Layer Documentation](#layer-documentation)
-    - [1. Interaction Layer](#1-interaction-layer)
-    - [2. Cognitive & Planning Layer](#2-cognitive--planning-layer)
-    - [3. Memory & Knowledge Layer](#3-memory--knowledge-layer)
-    - [4. Tooling & Execution Layer](#4-tooling--execution-layer)
-    - [5. Runtime & Orchestration Layer](#5-runtime--orchestration-layer)
-    - [6. Safety, Ethics & Governance Layer](#6-safety-ethics--governance-layer)
-    - [7. Deployment, Reliability & Performance Layer](#7-deployment-reliability--performance-layer)
-    - [8. Evaluation, Testing & Meta-learning Layer](#8-evaluation-testing--meta-learning-layer)
-    - [9. Multi-agent Layer](#9-multi-agent-layer)
-    - [10. Embodiment & Simulation Layer](#10-embodiment--simulation-layer)
-    - [11. Cross-layer Architecture](#11-cross-layer-architecture)
-    - [12. Backup & Migration Logs](#12-backup--migration-logs)
-  - [Repository Structure](#repository-structure)
-  - [Goals of the Documentation](#goals-of-the-documentation)
-  - [Migration Notes](#migration-notes)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgements](#acknowledgements)
-<!-- TOC END -->
-
 # Agent AI Lab — System Architecture Documentation
 
-This repository contains a comprehensive, modular, and deeply structured documentation set describing the full architecture of an advanced AI agent system. The goal of the project is to provide a clear, layered, and extensible blueprint for building, evaluating, and deploying intelligent agents capable of reasoning, interacting, learning, and acting safely in complex environments.
+This repository contains a comprehensive, modular, and deeply structured documentation set describing the full architecture of an advanced AI agent system.  
+The goal of the project is to provide a clear, layered, and extensible blueprint for building, evaluating, and deploying intelligent agents capable of reasoning, interacting, learning, and acting safely in complex environments.
 
-The documentation is organized into well-defined architectural layers, each representing a major subsystem of the agent. Every layer includes conceptual overviews, detailed specifications, observability models, safety considerations, and cross‑layer dependencies.
+The documentation is organized into well-defined architectural layers, each representing a major subsystem of the agent.  
+Every layer includes conceptual overviews, detailed specifications, observability models, safety considerations, and cross‑layer dependencies.
+
+---
+
+## Quick Links
+
+- **Architecture Overview** → `ARCHITECTURE.md`  
+- **Architecture Diagram** → `ARCHITECTURE_DIAGRAM.md`  
+- **Full Documentation Index** → `INDEX.md`  
+- **System Design** → `SYSTEM_DESIGN.md`  
+- **Glossary** → `GLOSSARY.md`  
+- **Governance Model** → `GOVERNANCE_MODEL.md`  
+- **Risk Model** → `RISK_MODEL.md`  
+- **Security Model** → `SECURITY_MODEL.md`  
+- **Release Notes** → `RELEASE_NOTES.md`  
+- **Roadmap** → `ROADMAP.md`  
+- **Contributing Guide** → `CONTRIBUTING.md`  
 
 ---
 
 ## Architecture Overview
 
+A high-level diagram of the full agent architecture is available in:
 
-Below is a high-level diagram of the full agent architecture:
-=======
-## Table of Contents
-- [Architecture Overview](#architecture-overview)
-- [Architecture Diagram](#architecture-overview)
+ARCHITECTURE_DIAGRAM.md
+
+
+The system is divided into twelve major layers, each representing a core subsystem of an intelligent agent.
 
 ---
 
-## Full Documentation Index
+## Architecture Map
 
-For a complete list of all architecture documents across all layers, see:
+The architecture is organized into twelve layers:
 
-👉 **[Global Architecture Index](docs/architecture/INDEX.md)**
-- [Repository Structure](#repository-structure)
+1. **Interaction Layer** — user communication, intent processing  
+2. **Cognitive & Planning Layer** — reasoning, planning, decision-making  
+3. **Memory & Knowledge Layer** — episodic, semantic, vector memory  
+4. **Tooling & Execution Layer** — tool selection, validation, execution  
+5. **Runtime & Orchestration Layer** — execution loop, concurrency, scheduling  
+6. **Safety, Ethics & Governance Layer** — safety, compliance, oversight  
+7. **Deployment, Reliability & Performance Layer** — scaling, performance  
+8. **Evaluation, Testing & Meta-learning Layer** — evaluation, benchmarking  
+9. **Multi-agent Layer** — coordination, communication, protocols  
+10. **Embodiment & Simulation Layer** — perception, motor control, simulation  
+11. **Cross-layer Architecture** — configuration, versioning, observability  
+12. **Backup & Migration Logs** — historical documents and migrations  
+
+Each layer has its own folder under:
+
+docs/architecture/
+
 
 ---
 
 ## Layer Documentation
 
 - **Interaction Layer**  
-  docs/architecture/interaction/README.md
+  `docs/architecture/interaction/README.md`
 
 - **Cognitive & Planning Layer**  
-  docs/architecture/cognitive-planning/README.md
+  `docs/architecture/cognitive-planning/README.md`
 
 - **Memory & Knowledge Layer**  
-  docs/architecture/memory-knowledge/README.md
+  `docs/architecture/memory-knowledge/README.md`
 
 - **Tooling & Execution Layer**  
-  docs/architecture/tooling-execution/README.md
+  `docs/architecture/tooling-execution/README.md`
 
 - **Runtime & Orchestration Layer**  
-  docs/architecture/runtime-orchestration/README.md
+  `docs/architecture/runtime-orchestration/README.md`
 
 - **Safety, Ethics & Governance Layer**  
-  docs/architecture/safety-ethics-governance/README.md
+  `docs/architecture/safety-ethics-governance/README.md`
 
 - **Deployment, Reliability & Performance Layer**  
-  docs/architecture/deployment-reliability-performance/README.md
+  `docs/architecture/deployment-reliability-performance/README.md`
 
 - **Evaluation, Testing & Meta-learning Layer**  
-  docs/architecture/evaluation-testing-meta-learning/README.md
+  `docs/architecture/evaluation-testing-meta-learning/README.md`
 
 - **Multi-agent Layer**  
-  docs/architecture/multi-agent/README.md
+  `docs/architecture/multi-agent/README.md`
 
 - **Embodiment & Simulation Layer**  
-  docs/architecture/embodiment-simulation/README.md
+  `docs/architecture/embodiment-simulation/README.md`
 
 - **Cross-layer Architecture**  
-  docs/architecture/cross-layer/README.md
+  `docs/architecture/cross-layer/README.md`
 
 - **Backup & Migration Logs**  
-  docs/architecture/_backup/
-- [Goals of the Documentation](#goals-of-the-documentation)
-- [Migration Notes](#migration-notes)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Full Documentation Index](#full-documentation-index)
-- [Layer Documentation](#layer-documentation)
-**agent-ai-lab** provides a clean foundation for experimenting with AI agents powered by LLMs.  
-The project focuses on:
->>>>>>> 2f288d3 (Full automated documentation update (TOC, links, related docs))
+  `docs/architecture/_backup/`
 
-![Architecture Diagram](docs/architecture/diagram.svg)
+---
 
-The system architecture is divided into twelve major layers:
+## Running the Backend
 
-### 1. Interaction Layer
-Manages communication between the agent and the user, including intent interpretation, dialogue management, response generation, and conversational safety.
+The repository includes a lightweight backend environment for experimenting with agent orchestration, tool execution, and LLM pipelines.
 
-### 2. Cognitive & Planning Layer
-Responsible for reasoning, decision-making, long‑horizon planning, meta‑reasoning, and cognitive strategies.
+### Using Docker
 
-### 3. Memory & Knowledge Layer
-Handles episodic, semantic, and working memory; knowledge representation; retrieval pipelines; and memory safety.
+```
+docker build -t agent-ai-lab .
+docker run -p 8000:8000 agent-ai-lab
+```
 
-### 4. Tooling & Execution Layer
-Defines how the agent selects, validates, sequences, and executes tools and external actions.
+- Backend will be available at:
 
-### 5. Runtime & Orchestration Layer
-Controls the agent’s execution loop, state management, concurrency, scheduling, and error handling.
+```
+http://localhost:8000
+```
 
-### 6. Safety, Ethics & Governance Layer
-Ensures safe, ethical, compliant, and policy‑aligned behavior across all agent operations.
+- Running Locally
 
-### 7. Deployment, Reliability & Performance Layer
-Covers deployment models, scaling, environment configuration, reliability engineering, and performance optimization.
+```
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn src.main:app --reload
+```
 
-### 8. Evaluation, Testing & Meta-learning Layer
-Provides evaluation frameworks, regression testing, benchmarking, and self‑optimization mechanisms.
+- Environment Variables
 
-### 9. Multi-agent Layer
-Supports communication, coordination, and governance in multi‑agent systems.
+```
+cp .env.example .env
+```
 
-### 10. Embodiment & Simulation Layer
-Models perception, motor control, simulation environments, and embodied agent behavior.
-
-### 11. Cross-layer Architecture
-Defines global mechanisms such as configuration, versioning, lifecycle management, and system-wide observability.
-
-### 12. Backup & Migration Logs
-Contains backup copies of all documents and logs from automated migration scripts.
+Fill in your API keys as needed.
 
 ---
 
@@ -219,6 +210,7 @@ This architecture is the result of extensive research, iteration, and refinement
 It is designed to support robust, safe, and scalable AI agent development.
 
 ---
+
 
 
 
