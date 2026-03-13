@@ -1,3 +1,8 @@
 class ReasoningEngine:
-    def think(self, prompt: str):
-        return f"Plan: use echo tool with input '{prompt}'"
+    def reflect(self, state, result):
+        """
+        Optional reflection step for self-improvement.
+        """
+        return {
+            "reflection": f"Agent observed result: {result}"
+        }
