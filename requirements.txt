@@ -10,3 +10,17 @@ tqdm
 coverage
 pytest-cov
 pytest
+=======
+fastapi
+uvicorn
+pydantic
+httpx
+openai
+python-dotenv
+langchain
+numpy
+tqdm
+coverage
+pytest-cov
+pytest
+

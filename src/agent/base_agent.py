@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+from typing import Dict, Any, List
 
 from ..memory.memory import Memory
 from ..tools.tools import ToolRegistry, ToolExecutor
