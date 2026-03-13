@@ -1,28 +1,27 @@
+# ---------- Stage 1: builder ----------
+FROM python:3.11-slim AS builder
+
+WORKDIR /app
+
+COPY requirements.txt .
+COPY pyproject.toml .
+
+RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
+
+# ---------- Stage 2: runtime ----------
 FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
 
 WORKDIR /app
 
-# System dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy dependency files first (better caching)
-COPY requirements.txt .
-COPY pyproject.toml .
-
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy installed dependencies
+COPY --from=builder /install /usr/local
 
 # Copy application code
 COPY src ./src
-
-# Optional: only if you actually have docs/
-# COPY docs ./docs
-
-ENV PYTHONPATH=/app
 
 EXPOSE 8000
 
