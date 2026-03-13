@@ -2,11 +2,14 @@ version: "3.9"
 
 services:
   agent-api:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: agent-api
     ports:
       - "8000:8000"
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
-      OPENAI_MODEL: gpt-4.1
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1}
+      PYTHONUNBUFFERED: 1
     restart: unless-stopped
