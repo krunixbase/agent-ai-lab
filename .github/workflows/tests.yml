@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tests
         run: pytest -q
+
+      - name: Add src to PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
