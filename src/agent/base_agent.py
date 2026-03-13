@@ -1,10 +1,10 @@
 from typing import Any, Dict, List, Optional
 
-from .state import AgentState
-from .memory import Memory
-from .tools import ToolRegistry, ToolExecutor
+from ..memory.memory import Memory
+from ..tools.tools import ToolRegistry, ToolExecutor
 from ..planning.planner import Planner
 from ..runtime.runtime import RuntimeLoop
+from .state import AgentState
 
 
 class BaseAgent:
@@ -51,7 +51,11 @@ class BaseAgent:
 
         for step in steps:
             action = step.get("action", "echo")
-            tool_input = step.get("input", last_result or state.user_input)
+            tool_input = step.get("input")
+
+            # If input is None or empty string, use last_result or original input
+            if not tool_input:
+                tool_input = last_result or state.user_input
 
             result = self.executor.execute(action, tool_input)
             last_result = result
@@ -60,4 +64,3 @@ class BaseAgent:
 
         self.memory.add({"state": state, "final_result": last_result})
         return last_result
-

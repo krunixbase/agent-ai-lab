@@ -1,39 +1,14 @@
-import datetime
-import math
-from typing import Any, Dict
+class EchoTool:
+    """
+    Simple tool that returns the input unchanged.
+    """
+    def __call__(self, text: str) -> str:
+        return text
 
 
-def tool_echo(input_text: str) -> str:
+class UppercaseTool:
     """
-    Returns the input text unchanged.
-    Useful as a fallback or for simple transformations.
+    Converts input text to uppercase.
     """
-    return input_text
-
-
-def tool_calculator(expression: str) -> str:
-    """
-    Evaluates a basic math expression.
-    WARNING: This is intentionally minimal and not safe for untrusted input.
-    """
-    try:
-        result = eval(expression, {"__builtins__": {}}, math.__dict__)
-        return str(result)
-    except Exception:
-        return "Error: invalid math expression."
-
-
-def tool_datetime(_: str = "") -> str:
-    """
-    Returns the current date and time in ISO format.
-    """
-    return datetime.datetime.now().isoformat()
-
-
-def register_builtin_tools(registry) -> None:
-    """
-    Registers built-in tools into the provided ToolRegistry instance.
-    """
-    registry.register("echo", tool_echo)
-    registry.register("calculator", tool_calculator)
-    registry.register("datetime", tool_datetime)
+    def __call__(self, text: str) -> str:
+        return text.upper()

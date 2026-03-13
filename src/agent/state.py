@@ -10,10 +10,3 @@ class AgentState:
     last_result: Optional[str] = None
     finished: bool = False
     metadata: Dict[str, Any] = field(default_factory=dict)
-
-
-@dataclass
-class AgentContext:
-    memory_context: List[Dict[str, Any]] = field(default_factory=list)
-    tool_context: Dict[str, Any] = field(default_factory=dict)
-    system_context: Dict[str, Any] = field(default_factory=dict)
