@@ -1,6 +1,10 @@
 import os
+import ast
+import logging
 from typing import Dict, Any
 from openai import OpenAI
+
+logger = logging.getLogger(__name__)
 
 
 class OpenAIPipeline:
@@ -45,10 +49,10 @@ class OpenAIPipeline:
 
         # Minimal parsing — safe fallback to echo
         try:
-            plan = eval(content)
+            plan = ast.literal_eval(content)
             if isinstance(plan, dict) and "action" in plan and "input" in plan:
                 return plan
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning(f"Failed to parse plan: {e}")
 
         return {"action": "echo", "input": user_input}
