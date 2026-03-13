@@ -1,6 +1,4 @@
 [![Coverage](https://codecov.io/gh/krunixbase/agent-ai-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/krunixbase/agent-ai-lab)
-[![Security](https://github.com/krunixbase/agent-ai-lab/actions/workflows/security.yml/badge.svg)](https://github.com/krunixbase/agent-ai-lab/actions/workflows/security.yml)
-[![Lint](https://github.com/krunixbase/agent-ai-lab/actions/workflows/lint.yml/badge.svg)](https://github.com/krunixbase/agent-ai-lab/actions/workflows/lint.yml)
 [![Tests](https://github.com/krunixbase/agent-ai-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/krunixbase/agent-ai-lab/actions/workflows/tests.yml)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 ![Architecture Docs](https://img.shields.io/badge/architecture-docs-blue.svg)
