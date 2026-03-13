@@ -7,3 +7,5 @@ python-dotenv
 langchain
 numpy
 tqdm
+coverage
+pytest-cov
