@@ -197,7 +197,9 @@ The repository includes two migration logs:
 - `move.log` — initial automated reorganization of architecture documents.  
 - `move2.log` — secondary migration for remaining unclassified documents.
 
-All original files are preserved in `docs/architecture/_backup/`.
+All original files are preserved in 
+
+docs/architecture/_backup/
 
 ---
 
@@ -222,6 +224,7 @@ This architecture is the result of extensive research, iteration, and refinement
 It is designed to support robust, safe, and scalable AI agent development.
 
 ---
+
 
 
 
