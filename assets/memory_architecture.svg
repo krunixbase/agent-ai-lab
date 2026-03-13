@@ -1,0 +1,27 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="#fafafa"/>
+  <text x="450" y="40" font-size="28" text-anchor="middle">Memory Architecture — Agent AI Lab</text>
+
+  <g font-size="16">
+    <rect x="100" y="120" width="250" height="80" fill="#e6f7ff" stroke="#000"/>
+    <text x="225" y="165" text-anchor="middle">Episodic Memory</text>
+
+    <rect x="550" y="120" width="250" height="80" fill="#fff0f6" stroke="#000"/>
+    <text x="675" y="165" text-anchor="middle">Semantic Memory</text>
+
+    <rect x="100" y="300" width="250" height="80" fill="#f9f0ff" stroke="#000"/>
+    <text x="225" y="345" text-anchor="middle">Vector Memory</text>
+
+    <rect x="550" y="300" width="250" height="80" fill="#f6ffed" stroke="#000"/>
+    <text x="675" y="345" text-anchor="middle">Long-term Knowledge</text>
+
+    <line x1="225" y1="200" x2="225" y2="300" stroke="#000" marker-end="url(#arrow)"/>
+    <line x1="675" y1="200" x2="675" y2="300" stroke="#000" marker-end="url(#arrow)"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

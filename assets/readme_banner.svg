@@ -1,0 +1,6 @@
+<svg width="1200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="250" fill="#1a1a1a"/>
+  <text x="600" y="130" font-size="48" fill="#ffffff" text-anchor="middle" font-family="Arial">
+    Agent AI Lab — System Architecture
+  </text>
+</svg>
