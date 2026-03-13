@@ -4,6 +4,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/krunixbase/agent-ai-lab)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)
+![Tests](https://github.com/andrzejkr/agent-ai-lab/actions/workflows/tests.yml/badge.svg)
 [![Release](https://img.shields.io/github/v/release/krunixbase/agent-ai-lab?label=latest%20release&color=orange)](https://github.com/krunixbase/agent-ai-lab/releases)
 
 # Agent AI Lab — System Architecture Documentation
