@@ -1,4 +1,5 @@
 [![Coverage](https://codecov.io/gh/krunixbase/agent-ai-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/krunixbase/agent-ai-lab)
+[![Tests](https://github.com/krunixbase/agent-ai-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/krunixbase/agent-ai-lab/actions/workflows/tests.yml)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 ![Architecture Docs](https://img.shields.io/badge/architecture-docs-blue.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/krunixbase/agent-ai-lab)
