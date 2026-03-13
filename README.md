@@ -14,6 +14,20 @@ The documentation is organized into well‑defined architectural layers, each re
 
 ---
 
+## Status Overview
+
+| Category | Status |
+|---------|--------|
+| Architecture Docs | Complete (v1 snapshot available) |
+| GitHub | Active development |
+| Last Commit | See GitHub history |
+| Issues | Open for contributions |
+| License | MIT |
+| Version | v1.0.0 (documentation snapshot) |
+| Release | Planned |
+
+---
+
 ## Quick Links
 
 - **Architecture Overview** → `ARCHITECTURE.md`  
@@ -208,6 +222,7 @@ This architecture is the result of extensive research, iteration, and refinement
 It is designed to support robust, safe, and scalable AI agent development.
 
 ---
+
 
 
 
