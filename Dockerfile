@@ -17,12 +17,22 @@ ENV PYTHONPATH=/app
 
 WORKDIR /app
 
+# Create non-root user
+RUN useradd -m appuser
+
 # Copy installed dependencies
 COPY --from=builder /install /usr/local
 
 # Copy application code
 COPY src ./src
 
+# Give permissions to the user
+RUN chown -R appuser:appuser /app
+
+# Switch to non-root user
+USER appuser
+
 EXPOSE 8000
 
 CMD ["uvicorn", "src.api.api:app", "--host", "0.0.0.0", "--port", "8000"]
+
