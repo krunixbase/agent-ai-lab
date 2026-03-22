@@ -30,7 +30,7 @@ jobs:
           coverage xml
 
       - name: Upload coverage to Codecov
-        uses: docker/login-action@<sha>
+        uses: docker/login-action@f4b8f3e2c6e2c0a3b8e2a0d9c3f1a2b9c8d7e6f5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage.xml
