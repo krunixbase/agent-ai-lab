@@ -12,4 +12,5 @@ services:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1}
       PYTHONUNBUFFERED: 1
+      PYTHONPATH: /app/src
     restart: unless-stopped
