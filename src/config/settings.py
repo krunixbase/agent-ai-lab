@@ -1,7 +1,31 @@
-import os
+from pydantic import BaseSettings, Field
+from functools import lru_cache
 
-class Settings:
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-    OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1")
+class Settings(BaseSettings):
+    # LLM configuration
+    OPENAI_API_KEY: str | None = Field(default=None)
+    OPENAI_MODEL: str = Field(default="gpt-4.1")
 
-settings = Settings()
+    # Vector DB
+    VECTOR_DB_PROVIDER: str = Field(default="chroma")
+    VECTOR_DB_PATH: str = Field(default="./vector_store")
+
+    # Server
+    SERVER_HOST: str = Field(default="0.0.0.0")
+    SERVER_PORT: int = Field(default=8000)
+
+    # Logging
+    LOG_LEVEL: str = Field(default="INFO")
+    LOG_FORMAT: str = Field(default="json")
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+
+
+@lru_cache()
+def get_settings() -> Settings:
+    return Settings()
+
+
+settings = get_settings()
