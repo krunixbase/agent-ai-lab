@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@<sha>
+      - uses: lycheeverse/lychee-action@a3c6b2f4d9e8c1a7b0f2d4e6c8a9b1f3d7e5c2a1
         with:
           args: --verbose --no-progress **/*.md
