@@ -59,18 +59,13 @@ The framework is modular, testable, and production‑ready.
 
 ---
 
-## Architecture Overview
+## 🧱 Architecture Overview
 
 A high-level diagram of the full agent architecture is available in:
 
 ARCHITECTURE_DIAGRAM.md
 
-
 The system is divided into twelve major layers, each representing a core subsystem of an intelligent agent.
-
----
-
-## 🧱 Architecture
 
 ```
 ──────────────────────────────────────────────┐
