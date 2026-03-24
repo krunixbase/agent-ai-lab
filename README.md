@@ -29,7 +29,20 @@ The documentation is organized into well‑defined architectural layers, each re
 | Release | Planned |
 
 ---
+## 🚀 Overview
 
+`agent-ai-lab` provides a clean, extensible architecture for:
+
+- building deterministic AI agents  
+- orchestrating LLM pipelines  
+- integrating external tools and APIs  
+- running retrieval‑augmented generation (RAG)  
+- managing agent memory  
+- enabling cryptographic extensions (deterministic signing episodes, hashing, verification)  
+
+The framework is modular, testable, and production‑ready.
+
+---
 ## Quick Links
 
 - **Architecture Overview** → `ARCHITECTURE.md`  
@@ -57,6 +70,187 @@ The system is divided into twelve major layers, each representing a core subsyst
 
 ---
 
+## 🧱 Architecture
+
+```
+──────────────────────────────────────────────┐
+│                  API Layer                   │
+│              (FastAPI / server/)             │
+└──────────────────────────────────────────────┘
+│
+▼
+┌──────────────────────────────────────────────┐
+│                Agent Core                    │
+│  base_agent.py • memory.py • tools.py        │
+│           reasoning.py • planning            │
+└──────────────────────────────────────────────┘
+│
+▼
+┌──────────────────────────────────────────────┐
+│                Pipelines                     │
+│   llm_pipeline.py • retrieval_pipeline.py     │
+│   embeddings • vector search • RAG            │
+└──────────────────────────────────────────────┘
+│
+▼
+┌──────────────────────────────────────────────┐
+│             External Integrations             │
+│  LLM providers • vector DBs • tools • APIs    │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## 🧠 Agent Core
+
+The Agent Core manages:
+
+- the reasoning loop  
+- planning and decision logic  
+- memory (short‑term and long‑term)  
+- tool execution  
+- interaction with LLM pipelines  
+- deterministic execution (optional)  
+
+### Core Components
+
+- `base_agent.py` — main agent lifecycle  
+- `memory.py` — memory backend  
+- `tools.py` — tool registry and execution  
+- `reasoning.py` — planning, chain‑of‑thought, decision logic  
+
+---
+
+## 🔌 Pipelines
+
+### LLM Pipeline
+Unified interface for:
+
+- OpenAI  
+- Anthropic  
+- Local models (Ollama, vLLM, LM Studio)  
+- Structured outputs  
+- Streaming  
+
+### Retrieval Pipeline
+Supports:
+
+- embeddings  
+- vector search  
+- RAG  
+- Pinecone / Chroma / pgvector  
+
+---
+
+## 🌐 API Layer
+
+FastAPI backend exposes:
+
+- `POST /agent/run` — run agent with a prompt  
+- `GET /agent/tools` — list available tools  
+- `GET /health` — health check  
+
+---
+
+## 🧩 Tools
+
+Tools extend agent capabilities in a controlled, auditable way.
+
+Examples:
+
+- system utilities  
+- math operations  
+- file operations  
+- HTTP requests  
+- cryptographic operations (planned)  
+
+---
+
+## 🔐 Security & Determinism
+
+The framework is designed to support:
+
+- deterministic planning  
+- deterministic tool execution  
+- plan hashing  
+- execution trace  
+- cryptographic signing episodes  
+- threshold cryptography (future module)  
+
+These features enable verifiable, trust‑critical AI workflows.
+
+---
+
+## 🧪 Testing
+
+The project includes (or will include):
+
+- unit tests  
+- integration tests  
+- deterministic execution tests  
+- API tests  
+
+---
+
+## 🐳 Deployment
+
+The repository includes:
+
+- Dockerfile  
+- docker-compose  
+- Makefile  
+- CI/CD workflows  
+
+---
+
+## 📚 Documentation
+
+Documentation is located in the `docs/` directory:
+
+- architecture.md  
+- whitepaper.md  
+- security-model.md  
+- roadmap.md  
+- crypto-module.md  
+
+---
+
+## 🧭 Roadmap
+
+- deterministic signing episodes  
+- crypto module (hashing, Shamir, verification)  
+- distributed agent coordination  
+- advanced RAG  
+- multi-agent workflows  
+- plugin system for tools  
+- benchmarking suite  
+
+---
+
+## 🏁 Quickstart
+
+```bash
+git clone https://github.com/krunixbase/agent-ai-lab.git
+cd agent-ai-lab
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn server.main:app --reload
+```
+
+---
+## 🧑‍💻 Example Usage
+
+```
+curl -X POST http://localhost:8000/agent/run \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": "Hello agent"}'
+```
+
+---
 ## Architecture Map
 
 The architecture is organized into twelve layers:
