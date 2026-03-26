@@ -9,14 +9,17 @@ router = APIRouter()
 
 class RunRequest(BaseModel):
     prompt: str
+    model: str = "llama3.2"
 
 @router.post("/agent/run")
 async def run_agent(req: RunRequest):
     try:
         agent = BaseAgent(
-            llm=OpenAILLMPipeline(client=None, model="gpt-4o-mini"),
-            retriever=SimpleRetrievalPipeline(["example doc 1"])
-        )
+    llm=LLMPipeline(model=req.model),
+    retriever=SimpleRetrievalPipeline(["example doc 1"])
+)
+
         return await agent.run(req.prompt)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
