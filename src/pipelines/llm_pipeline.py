@@ -1,24 +1,21 @@
 from typing import Dict, Any
-from utils.validators import ensure_not_empty
 from utils.json_safe import json_safe
 from utils.retry import retry
-
 from .base_pipeline import BasePipeline
+from .ollama_client import OllamaClient
 
 
 class LLMPipeline(BasePipeline):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, model: str = "llama3.2"):
+        self.client = OllamaClient(model=model)
+        self.model = model
 
     @retry((Exception,), retries=3)
     async def generate(self, prompt: str) -> Dict[str, Any]:
-        self.validate(prompt, "prompt")
-
-        raw = await self.client.generate(prompt=prompt)
-
+        raw = await self.client.generate(prompt)
         return {
-            "text": raw.get("text", ""),
+            "text": raw["text"],
             "raw": json_safe(raw),
         }
 
