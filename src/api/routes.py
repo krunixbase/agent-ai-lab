@@ -1,25 +1,46 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from pydantic import BaseModel
-
-from agent_core.base_agent import BaseAgent
-from pipelines.llm_pipeline import OpenAILLMPipeline
+from pipelines.llm_pipeline import LLMPipeline
+from agents.base_agent import BaseAgent
 from pipelines.retrieval_pipeline import SimpleRetrievalPipeline
 
 router = APIRouter()
 
+
+# Request schema
 class RunRequest(BaseModel):
     prompt: str
-    model: str = "llama3.2"
+    model: str = "llama3.2"   # default model
 
-@router.post("/agent/run")
+
+# Response schema
+class RunResponse(BaseModel):
+    text: str
+    model: str
+
+
+@router.post("/run", response_model=RunResponse)
 async def run_agent(req: RunRequest):
-    try:
-        agent = BaseAgent(
-    llm=LLMPipeline(model=req.model),
-    retriever=SimpleRetrievalPipeline(["example doc 1"])
-)
+    """
+    Main endpoint for generating responses using local Ollama models.
+    """
 
-        return await agent.run(req.prompt)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    # Initialize LLM pipeline with selected model
+    llm = LLMPipeline(model=req.model)
 
+    # Simple retrieval (you can replace this later)
+    retriever = SimpleRetrievalPipeline(["example document"])
+
+    # Create agent
+    agent = BaseAgent(
+        llm=llm,
+        retriever=retriever
+    )
+
+    # Run agent
+    result = await agent.run(req.prompt)
+
+    return RunResponse(
+        text=result["text"],
+        model=req.model
+    )
