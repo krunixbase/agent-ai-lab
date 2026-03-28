@@ -10,7 +10,6 @@ tqdm
 coverage
 pytest-cov
 pytest
-=======
 fastapi
 uvicorn
 pydantic
